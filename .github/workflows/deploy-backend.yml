@@ -27,3 +27,4 @@ jobs:
           local-dir: ./backend/
           server-dir: /mta.anderskaev.ru/api/
           exclude: README.md
+          delete: false
