@@ -21,6 +21,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./backend
+          local-dir: ./backend/
           server-dir: /mta.anderskaev.ru/
           exclude: README.md
