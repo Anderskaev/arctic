@@ -27,7 +27,7 @@ jobs:
           cache-dependency-path: './frontend/meet-arctic-front/package-lock.json' 
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run build
