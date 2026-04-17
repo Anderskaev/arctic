@@ -4,7 +4,7 @@ from flask import Flask
 application = Flask(__name__)
 
 
-@application.route("/")
+@application.route("/api")
 def hello():
    return "<h1 style='color:blue'>Hello There!</h1>"
    
