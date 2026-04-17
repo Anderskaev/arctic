@@ -4,11 +4,11 @@ from flask import Flask, jsonify
 application = Flask(__name__)
 
 
-@application.route("/")
+@application.route("/api")
 def hello():
    return "<h1 style='color:blue'>Hello There!</h1>"
    
-@application.route('/data', methods=['GET'])
+@application.route('/api/data', methods=['GET'])
 def get_data():
     return jsonify({"message": "Hello, REST API!", "status": "success"})   
 
