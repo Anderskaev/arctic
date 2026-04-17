@@ -7,9 +7,12 @@ It's little portal with themed postcards. They are absolutely free for use under
 
 
 ## Tech stack
+
 **Front-end**
 - Angular
+
 **Back-end**
 - PHP
+
 **Database**
 - MySQL
