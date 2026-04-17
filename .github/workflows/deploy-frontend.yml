@@ -41,3 +41,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./frontend/meet-arctic-front/build/
           server-dir: /mta.anderskaev.ru/
+          delete: false
