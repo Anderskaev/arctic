@@ -1,47 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useState } from 'react';
-import Loader from './components/loader';
-
+import { Routes, Route } from 'react-router'
+import Card from './pages/card';
+import CardList from './pages/card-list';
+import Home from './pages/front-page';
+import Navbar from './components/navbar';
+import NotFound from './pages/404';
 
 
 
 function App() {
-  const [loading, setLoading] = useState(true);
-
-  setTimeout(()=>{
-        setLoading(false);
-      }, 8000);
-
-  // useEffect(()=>{
-  //   setTimeout(()=>{
-  //     setLoading(false);
-  //   }, 8000);
-  // });
-
-  
-  if(loading) {
-    return <Loader>Loading...</Loader>;
-  } 
-
   return (
-    
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cardlist" element={<CardList />} />
+        <Route path="/card/:id" element={<Card />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
   );
 }
 
