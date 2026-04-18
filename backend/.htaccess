@@ -1,8 +1,11 @@
 RewriteEngine On
 
+
 RewriteRule ^api(/.*)?$ - [L]
 
-RewriteCond %{DOCUMENT_ROOT}/public/%{REQUEST_URI} -f
-RewriteRule ^(.*)$ /public/$1 [L]
+RewriteRule ^$ public/index.html [L]
 
-RewriteRule ^(.*)$ /public/index.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ ./public/index.html [L]
