@@ -40,7 +40,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./frontend/meet-arctic-front/build/
-          server-dir: /mta.anderskaev.ru/
+          server-dir: /mta.anderskaev.ru/public/
           exclude: |
             README.md
             **/*.py
