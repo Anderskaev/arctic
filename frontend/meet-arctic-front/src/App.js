@@ -1,23 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
+import Loader from './components/loader';
+
+
+
 
 function App() {
   const [loading, setLoading] = useState(true);
 
-  useEffect(()=>{
-    setTimeout(()=>{
-      setLoading(false);
-    }, 8000);
-  });
+  setTimeout(()=>{
+        setLoading(false);
+      }, 8000);
+
+  // useEffect(()=>{
+  //   setTimeout(()=>{
+  //     setLoading(false);
+  //   }, 8000);
+  // });
 
   
   if(loading) {
-    return <p>Loading...</p>
+    return <Loader>Loading...</Loader>;
   } 
 
-
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
