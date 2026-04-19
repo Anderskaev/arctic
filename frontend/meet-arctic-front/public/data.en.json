@@ -2,49 +2,49 @@
     "countries": [
         {
             "id": 1,
-            "name": "Россия",
+            "name": "Russia",
             "arcticArea": 9000,
             "arcticPopulation": 2500000
         },
         {
             "id": 2,
-            "name": "Канада",
+            "name": "Canada",
             "arcticArea": 3500,
             "arcticPopulation": 150000
         },
         {
             "id": 3,
-            "name": "США (Аляска)",
+            "name": "USA (Alaska)",
             "arcticArea": 1500,
             "arcticPopulation": 730000
         },
         {
             "id": 4,
-            "name": "Гренландия (Дания)",
+            "name": "Greenland (Denmark)",
             "arcticArea": 2100,
             "arcticPopulation": 56000
         },
         {
             "id": 5,
-            "name": "Норвегия",
+            "name": "Norway",
             "arcticArea": 750,
             "arcticPopulation": 480000
         },
         {
             "id": 6,
-            "name": "Швеция",
+            "name": "Sweden",
             "arcticArea": 95,
             "arcticPopulation": 250000
         },
         {
             "id": 7,
-            "name": "Финляндия",
+            "name": "Finland",
             "arcticArea": 100,
             "arcticPopulation": 180000
         },
         {
             "id": 8,
-            "name": "Исландия",
+            "name": "Iceland",
             "arcticArea": 103,
             "arcticPopulation": 370000
         }
@@ -58,7 +58,7 @@
             "avgTemp": 0.6,
             "latitude": 68.97,
             "population": 270000,
-            "descr": "Крупнейший в мире город за полярным кругом."
+            "descr": "The largest city in the world beyond the Arctic Circle."
         },
         {
             "id": 2,
@@ -68,7 +68,7 @@
             "avgTemp": -9.6,
             "latitude": 69.35,
             "population": 175000,
-            "descr": "Один из самых северных городов мира с суровым климатом."
+            "descr": "One of the northernmost cities in the world with a harsh climate."
         },
         {
             "id": 3,
