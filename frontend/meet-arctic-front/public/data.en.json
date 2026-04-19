@@ -53,7 +53,7 @@
         {
             "id": 1,
             "id_country": 1,
-            "name": "Мурманск",
+            "name": "Murmansk",
             "lowTemp": -39,
             "avgTemp": 0.6,
             "latitude": 68.97,
@@ -63,7 +63,7 @@
         {
             "id": 2,
             "id_country": 1,
-            "name": "Норильск",
+            "name": "Norilsk",
             "lowTemp": -53,
             "avgTemp": -9.6,
             "latitude": 69.35,
@@ -73,3492 +73,3492 @@
         {
             "id": 3,
             "id_country": 2,
-            "name": "Икалуит",
+            "name": "Iqaluit",
             "lowTemp": -45,
             "avgTemp": -9.3,
             "latitude": 63.74,
             "population": 7700,
-            "descr": "Столица территории Нунавут, расположенная на острове Баффинова Земля."
+            "descr": "Capital of Nunavut territory, located on Baffin Island."
         },
         {
             "id": 4,
             "id_country": 2,
-            "name": "Инувик",
+            "name": "Inuvik",
             "lowTemp": -56,
             "avgTemp": -8.2,
             "latitude": 68.36,
             "population": 3200,
-            "descr": "Административный центр в дельте реки Маккензи."
+            "descr": "Administrative center in the Mackenzie River Delta."
         },
         {
             "id": 5,
             "id_country": 3,
-            "name": "Уткиагвик (Барроу)",
+            "name": "Utqiagvik (Barrow)",
             "lowTemp": -49,
             "avgTemp": -11.3,
             "latitude": 71.29,
             "population": 4500,
-            "descr": "Самый северный город США."
+            "descr": "The northernmost city in the USA."
         },
         {
             "id": 6,
             "id_country": 3,
-            "name": "Ном",
+            "name": "Nome",
             "lowTemp": -47,
             "avgTemp": -2.4,
             "latitude": 64.5,
             "population": 3600,
-            "descr": "Знаменитый город золотоискателей на берегу Берингова моря."
+            "descr": "Famous gold mining city on the coast of the Bering Sea."
         },
         {
             "id": 7,
             "id_country": 4,
-            "name": "Нуук",
+            "name": "Nuuk",
             "lowTemp": -32,
             "avgTemp": -1.3,
             "latitude": 64.18,
             "population": 19000,
-            "descr": "Самая северная столица в мире."
+            "descr": "The northernmost capital in the world."
         },
         {
             "id": 8,
             "id_country": 4,
-            "name": "Илулиссат",
+            "name": "Ilulissat",
             "lowTemp": -41,
             "avgTemp": -3.9,
             "latitude": 69.21,
             "population": 4600,
-            "descr": "Город знаменит своими гигантскими айсбергами."
+            "descr": "City famous for its giant icebergs."
         },
         {
             "id": 9,
             "id_country": 5,
-            "name": "Тромсё",
+            "name": "Tromsø",
             "lowTemp": -20,
             "avgTemp": 2.9,
             "latitude": 69.64,
             "population": 77000,
-            "descr": "Ворота в Арктику и популярное место для наблюдения за северным сиянием."
+            "descr": "Gateway to the Arctic and popular place for northern lights viewing."
         },
         {
             "id": 10,
             "id_country": 5,
-            "name": "Лонгйир",
+            "name": "Longyearbyen",
             "lowTemp": -46,
             "avgTemp": -6.7,
             "latitude": 78.22,
             "population": 2400,
-            "descr": "Самое северное в мире поселение с населением более тысячи человек."
+            "descr": "The northernmost settlement in the world with over a thousand inhabitants."
         },
         {
             "id": 11,
             "id_country": 6,
-            "name": "Кируна",
+            "name": "Kiruna",
             "lowTemp": -43,
             "avgTemp": -1,
             "latitude": 67.85,
             "population": 22000,
-            "descr": "Самый северный город Швеции, известный своим ледяным отелем."
+            "descr": "Sweden's northernmost city, famous for its ice hotel."
         },
         {
             "id": 12,
             "id_country": 6,
-            "name": "Лулео",
+            "name": "Luleå",
             "lowTemp": -41,
             "avgTemp": 2,
             "latitude": 65.58,
             "population": 46000,
-            "descr": "Портовый город на побережье Ботнического залива."
+            "descr": "Port city on the coast of the Bothnian Bay."
         },
         {
             "id": 13,
             "id_country": 7,
-            "name": "Рованиеми",
+            "name": "Rovaniemi",
             "lowTemp": -47,
             "avgTemp": 0.9,
             "latitude": 66.5,
             "population": 64000,
-            "descr": "Официальная родина Санта-Клауса."
+            "descr": "The official home of Santa Claus."
         },
         {
             "id": 14,
             "id_country": 7,
-            "name": "Инари",
+            "name": "Inari",
             "lowTemp": -48,
             "avgTemp": -1.3,
             "latitude": 68.9,
             "population": 6800,
-            "descr": "Центр саамской культуры Финляндии."
+            "descr": "Center of Sami culture in Finland."
         },
         {
             "id": 15,
             "id_country": 8,
-            "name": "Акюрейри",
+            "name": "Akureyri",
             "lowTemp": -23,
             "avgTemp": 3.4,
             "latitude": 65.68,
             "population": 19000,
-            "descr": "«Северная столица» Исландии."
+            "descr": "The 'Northern Capital' of Iceland."
         },
         {
             "id": 16,
             "id_country": 8,
-            "name": "Хусавик",
+            "name": "Húsavík",
             "lowTemp": -20,
             "avgTemp": 2.8,
             "latitude": 66.04,
             "population": 2300,
-            "descr": "Мировая столица наблюдения за китами."
+            "descr": "The world's whale-watching capital."
         },
         {
             "id": 17,
             "id_country": 1,
-            "name": "Черский",
+            "name": "Chersky",
             "lowTemp": -58,
             "avgTemp": -12.7,
             "latitude": 68.75,
             "population": 2500,
-            "descr": "Поселок в низовьях Колымы, важный логистический узел Арктики."
+            "descr": "Settlement in the lower Kolyma region, an important Arctic logistics hub."
         },
         {
             "id": 18,
             "id_country": 1,
-            "name": "Оймякон",
+            "name": "Oymyakon",
             "lowTemp": -71,
             "avgTemp": -15.5,
             "latitude": 63.46,
             "population": 500,
-            "descr": "Мировой полюс холода, где зафиксированы экстремальные температуры."
+            "descr": "The world's cold pole, where extreme temperatures have been recorded."
         },
         {
             "id": 19,
             "id_country": 1,
-            "name": "Дудинка",
+            "name": "Dudinka",
             "lowTemp": -56,
             "avgTemp": -9.4,
             "latitude": 69.4,
             "population": 21000,
-            "descr": "Один из самых северных морских портов мира."
+            "descr": "One of the world's northernmost seaports."
         },
         {
             "id": 20,
             "id_country": 1,
-            "name": "Анадырь",
+            "name": "Anadyr",
             "lowTemp": -46,
             "avgTemp": -6.2,
             "latitude": 64.73,
             "population": 15000,
-            "descr": "Самый восточный город России, столица Чукотки."
+            "descr": "Russia's easternmost city, capital of Chukotka."
         },
         {
             "id": 21,
             "id_country": 1,
-            "name": "Тикси",
+            "name": "Tiksi",
             "lowTemp": -50,
             "avgTemp": -12.4,
             "latitude": 71.63,
             "population": 4500,
-            "descr": "Морские ворота Якутии в море Лаптевых."
+            "descr": "The maritime gateway of Yakutia in the Laptev Sea."
         },
         {
             "id": 22,
             "id_country": 1,
-            "name": "Певек",
+            "name": "Pevek",
             "lowTemp": -50,
             "avgTemp": -9.5,
             "latitude": 69.7,
             "population": 4000,
-            "descr": "Самый северный город России."
+            "descr": "Russia's northernmost city."
         },
         {
             "id": 23,
             "id_country": 1,
-            "name": "Нарьян-Мар",
+            "name": "Naryan-Mar",
             "lowTemp": -47,
             "avgTemp": -3,
             "latitude": 67.64,
             "population": 25000,
-            "descr": "Столица Ненецкого автономного округа."
+            "descr": "Capital of Nenets Autonomous Okrug."
         },
         {
             "id": 24,
             "id_country": 1,
-            "name": "Салехард",
+            "name": "Salekhard",
             "lowTemp": -53,
             "avgTemp": -5.7,
             "latitude": 66.53,
             "population": 51000,
-            "descr": "Единственный город на Полярном круге."
+            "descr": "The only city on the Arctic Circle."
         },
         {
             "id": 25,
             "id_country": 1,
-            "name": "Воркута",
+            "name": "Vorkuta",
             "lowTemp": -52,
             "avgTemp": -5.3,
             "latitude": 67.5,
             "population": 52000,
-            "descr": "Шахтерский город за Полярным кругом."
+            "descr": "Mining city beyond the Arctic Circle."
         },
         {
             "id": 26,
             "id_country": 1,
-            "name": "Лабытнанги",
+            "name": "Labytnangi",
             "lowTemp": -54,
             "avgTemp": -5.9,
             "latitude": 66.65,
             "population": 26000,
-            "descr": "Город «Семи лиственниц» на Оби."
+            "descr": "The city of 'Seven Larches' on the Ob River."
         },
         {
             "id": 27,
             "id_country": 2,
-            "name": "Алерт",
+            "name": "Alert",
             "lowTemp": -50,
             "avgTemp": -17.7,
             "latitude": 82.5,
             "population": 60,
-            "descr": "Самое северное постоянно обитаемое место на Земле."
+            "descr": "The northernmost permanently inhabited place on Earth."
         },
         {
             "id": 28,
             "id_country": 2,
-            "name": "Йеллоунайф",
+            "name": "Yellowknife",
             "lowTemp": -51,
             "avgTemp": -4.3,
             "latitude": 62.45,
             "population": 20000,
-            "descr": "Столица Северо-Западных территорий Канады."
+            "descr": "Capital of Canada's Northwest Territories."
         },
         {
             "id": 29,
             "id_country": 2,
-            "name": "Резольют",
+            "name": "Resolute",
             "lowTemp": -52,
             "avgTemp": -15.7,
             "latitude": 74.69,
             "population": 200,
-            "descr": "Важный пункт арктических научных экспедиций."
+            "descr": "Important hub for Arctic scientific expeditions."
         },
         {
             "id": 30,
             "id_country": 2,
-            "name": "Кеймбридж-Бей",
+            "name": "Cambridge Bay",
             "lowTemp": -49,
             "avgTemp": -13.9,
             "latitude": 69.11,
             "population": 1700,
-            "descr": "Крупная община инуитов на острове Виктория."
+            "descr": "Large Inuit community on Victoria Island."
         },
         {
             "id": 31,
             "id_country": 2,
-            "name": "Панниртунг",
+            "name": "Pangnirtung",
             "lowTemp": -40,
             "avgTemp": -8.5,
             "latitude": 66.14,
             "population": 1500,
-            "descr": "Живописная деревня в арктическом фьорде."
+            "descr": "Picturesque village in an Arctic fjord."
         },
         {
             "id": 32,
             "id_country": 2,
-            "name": "Черчилл",
+            "name": "Churchill",
             "lowTemp": -45,
             "avgTemp": -6.5,
             "latitude": 58.76,
             "population": 900,
-            "descr": "Мировая столица белых медведей."
+            "descr": "The world's polar bear capital."
         },
         {
             "id": 33,
             "id_country": 3,
-            "name": "Коцебу",
+            "name": "Kotzebue",
             "lowTemp": -48,
             "avgTemp": -5.2,
             "latitude": 66.89,
             "population": 3200,
-            "descr": "Торговый центр за Полярным кругом на Аляске."
+            "descr": "Trading center beyond the Arctic Circle in Alaska."
         },
         {
             "id": 34,
             "id_country": 3,
-            "name": "Фэрбанкс",
+            "name": "Fairbanks",
             "lowTemp": -54,
             "avgTemp": -2.3,
             "latitude": 64.84,
             "population": 31000,
-            "descr": "Сердце внутренней Аляски."
+            "descr": "The heart of interior Alaska."
         },
         {
             "id": 35,
             "id_country": 3,
-            "name": "Прудо-Бей",
+            "name": "Prudhoe Bay",
             "lowTemp": -52,
             "avgTemp": -12.3,
             "latitude": 70.25,
             "population": 2100,
-            "descr": "Крупнейшее месторождение нефти в Северной Америке."
+            "descr": "North America's largest oil field."
         },
         {
             "id": 36,
             "id_country": 3,
-            "name": "Дедхорс",
+            "name": "Deadhorse",
             "lowTemp": -50,
             "avgTemp": -12,
             "latitude": 70.2,
             "population": 50,
-            "descr": "Опорный пункт для дальнобойщиков ледовых дорог."
+            "descr": "Base camp for ice road truckers."
         },
         {
             "id": 37,
             "id_country": 4,
-            "name": "Канак (Туле)",
+            "name": "Kanak (Thule)",
             "lowTemp": -45,
             "avgTemp": -10.5,
             "latitude": 77.46,
             "population": 650,
-            "descr": "Один из самых северных населенных пунктов Гренландии."
+            "descr": "One of Greenland's northernmost settlements."
         },
         {
             "id": 38,
             "id_country": 4,
-            "name": "Сисимиут",
+            "name": "Sisimiut",
             "lowTemp": -35,
             "avgTemp": -3.5,
             "latitude": 66.93,
             "population": 5500,
-            "descr": "Второй по величине город острова."
+            "descr": "The island's second-largest city."
         },
         {
             "id": 39,
             "id_country": 4,
-            "name": "Аасиаат",
+            "name": "Aasiaat",
             "lowTemp": -30,
             "avgTemp": -4,
             "latitude": 68.7,
             "population": 3000,
-            "descr": "Город китов и архипелага в заливе Диско."
+            "descr": "City of whales and archipelago in Disko Bay."
         },
         {
             "id": 40,
             "id_country": 5,
-            "name": "Ню-Олесунн",
+            "name": "Ny-Ålesund",
             "lowTemp": -42,
             "avgTemp": -5.2,
             "latitude": 78.92,
             "population": 35,
-            "descr": "САМЫЙ СЕВЕРНЫЙ в мире город (научное поселение)."
+            "descr": "THE NORTHERNMOST city in the world (scientific settlement)."
         },
         {
             "id": 41,
             "id_country": 5,
-            "name": "Хаммерфест",
+            "name": "Hammerfest",
             "lowTemp": -22,
             "avgTemp": 2,
             "latitude": 70.66,
             "population": 10000,
-            "descr": "Старейший город в северной части Норвегии."
+            "descr": "Northern Norway's oldest city."
         },
         {
             "id": 42,
             "id_country": 5,
-            "name": "Альта",
+            "name": "Alta",
             "lowTemp": -33,
             "avgTemp": 1.3,
             "latitude": 69.96,
             "population": 20000,
-            "descr": "Известен древними наскальными рисунками и северным сиянием."
+            "descr": "Known for ancient rock carvings and northern lights."
         },
         {
             "id": 43,
             "id_country": 6,
-            "name": "Йокмокк",
+            "name": "Jokkmokk",
             "lowTemp": -46,
             "avgTemp": -1.5,
             "latitude": 66.6,
             "population": 2700,
-            "descr": "Центр зимних саамских ярмарок."
+            "descr": "Center for winter Sami fairs."
         },
         {
             "id": 44,
             "id_country": 6,
-            "name": "Елливаре",
+            "name": "Gällivare",
             "lowTemp": -43,
             "avgTemp": -1.2,
             "latitude": 67.13,
             "population": 8500,
-            "descr": "Крупный центр добычи железной руды."
+            "descr": "Major iron ore mining center."
         },
         {
             "id": 45,
             "id_country": 7,
-            "name": "Киттиля",
+            "name": "Kittilä",
             "lowTemp": -51,
             "avgTemp": -0.8,
             "latitude": 67.66,
             "population": 6400,
-            "descr": "Популярный горнолыжный курорт Леви."
+            "descr": "Popular ski resort Levi."
         },
         {
             "id": 46,
             "id_country": 7,
-            "name": "Соданкюля",
+            "name": "Sodankylä",
             "lowTemp": -49,
             "avgTemp": -1,
             "latitude": 67.41,
             "population": 8000,
-            "descr": "Дом для геофизической обсерватории Арктики."
+            "descr": "Home to the Arctic Geophysical Observatory."
         },
         {
             "id": 47,
             "id_country": 1,
-            "name": "Хатанга",
+            "name": "Khatanga",
             "lowTemp": -59,
             "avgTemp": -12.5,
             "latitude": 71.98,
             "population": 2600,
-            "descr": "Один из самых северных населенных пунктов и портов России."
+            "descr": "One of Russia's northernmost settlements and ports."
         },
         {
             "id": 48,
             "id_country": 1,
-            "name": "Диксон",
+            "name": "Dixon",
             "lowTemp": -49,
             "avgTemp": -11.1,
             "latitude": 73.5,
             "population": 300,
-            "descr": "Самый северный порт в России, расположенный на берегу Карского моря."
+            "descr": "Russia's northernmost port, located on the Kara Sea coast."
         },
         {
             "id": 49,
             "id_country": 1,
-            "name": "Североморск",
+            "name": "Severomorsk",
             "lowTemp": -30,
             "avgTemp": 0.8,
             "latitude": 69.06,
             "population": 54000,
-            "descr": "Главная база Северного флота ВМФ России."
+            "descr": "Main base of Russia's Northern Fleet."
         },
         {
             "id": 50,
             "id_country": 1,
-            "name": "Билибино",
+            "name": "Bilibino",
             "lowTemp": -60,
             "avgTemp": -13.9,
             "latitude": 68.05,
             "population": 5500,
-            "descr": "Город с самой маленькой и самой северной АЭС в мире."
+            "descr": "Home to the smallest and northernmost nuclear power plant in the world."
         },
         {
             "id": 51,
             "id_country": 1,
-            "name": "Мончегорск",
+            "name": "Monchegorsk",
             "lowTemp": -40,
             "avgTemp": -0.5,
             "latitude": 67.93,
             "population": 40000,
-            "descr": "Центр медно-никелевой промышленности в Мурманской области."
+            "descr": "Center of copper-nickel industry in Murmansk Region."
         },
         {
             "id": 52,
             "id_country": 1,
-            "name": "Кандалакша",
+            "name": "Kandalaksha",
             "lowTemp": -43,
             "avgTemp": 0.4,
             "latitude": 67.15,
             "population": 30000,
-            "descr": "Город на берегу Кандалакшского залива Белого моря."
+            "descr": "City on the coast of Kandalaksha Bay of the White Sea."
         },
         {
             "id": 53,
             "id_country": 1,
-            "name": "Апатиты",
+            "name": "Apatity",
             "lowTemp": -42,
             "avgTemp": -0.8,
             "latitude": 67.56,
             "population": 53000,
-            "descr": "Научный и промышленный центр Кольского полуострова."
+            "descr": "Scientific and industrial center of the Kola Peninsula."
         },
         {
             "id": 54,
             "id_country": 1,
-            "name": "Кировск",
+            "name": "Kirovsk",
             "lowTemp": -39,
             "avgTemp": -1.2,
             "latitude": 67.61,
             "population": 26000,
-            "descr": "Горнолыжный центр в Хибинах."
+            "descr": "Ski resort center in Khibiny Mountains."
         },
         {
             "id": 55,
             "id_country": 1,
-            "name": "Заполярный",
+            "name": "Zapol'arnyy",
             "lowTemp": -38,
             "avgTemp": -0.2,
             "latitude": 69.43,
             "population": 14000,
-            "descr": "Город рядом с Кольской сверхглубокой скважиной."
+            "descr": "City near the Kola Superdeep Borehole."
         },
         {
             "id": 56,
             "id_country": 1,
-            "name": "Оленегорск",
+            "name": "Olenegorsk",
             "lowTemp": -45,
             "avgTemp": -1,
             "latitude": 68.14,
             "population": 20000,
-            "descr": "Город за полярным кругом, центр добычи железной руды."
+            "descr": "City beyond the polar circle, center of iron ore mining."
         },
         {
             "id": 57,
             "id_country": 1,
-            "name": "Никель",
+            "name": "Nickel",
             "lowTemp": -40,
             "avgTemp": -0.1,
             "latitude": 69.41,
             "population": 11000,
-            "descr": "Пограничный поселок городского типа на границе с Норвегией."
+            "descr": "Border town on the border with Norway."
         },
         {
             "id": 58,
             "id_country": 1,
-            "name": "Усинск",
+            "name": "Usinsk",
             "lowTemp": -55,
             "avgTemp": -3,
             "latitude": 65.99,
             "population": 37000,
-            "descr": "Нефтяная столица Республики Коми."
+            "descr": "Oil capital of the Komi Republic."
         },
         {
             "id": 59,
             "id_country": 1,
-            "name": "Инта",
+            "name": "Inta",
             "lowTemp": -56,
             "avgTemp": -3.9,
             "latitude": 66.03,
             "population": 23000,
-            "descr": "Город в Приполярном Урале."
+            "descr": "City in the Sub-Polar Urals."
         },
         {
             "id": 60,
             "id_country": 1,
-            "name": "Печора",
+            "name": "Pechora",
             "lowTemp": -54,
             "avgTemp": -1.9,
             "latitude": 65.14,
             "population": 38000,
-            "descr": "Энергетический центр на северо-востоке Коми."
+            "descr": "Energy center in northeastern Komi."
         },
         {
             "id": 61,
             "id_country": 1,
-            "name": "Кола",
+            "name": "Kola",
             "lowTemp": -35,
             "avgTemp": 0.5,
             "latitude": 68.88,
             "population": 9000,
-            "descr": "Один из древнейших городов на севере России."
+            "descr": "One of Russia's oldest northern cities."
         },
         {
             "id": 62,
             "id_country": 1,
-            "name": "Верхоянск",
+            "name": "Verkhoyansk",
             "lowTemp": -67,
             "avgTemp": -14.5,
             "latitude": 67.54,
             "population": 1000,
-            "descr": "Один из самых холодных городов мира."
+            "descr": "One of the world's coldest cities."
         },
         {
             "id": 63,
             "id_country": 1,
-            "name": "Удачный",
+            "name": "Udachnyy",
             "lowTemp": -60,
             "avgTemp": -11.8,
             "latitude": 66.42,
             "population": 12000,
-            "descr": "Центр добычи алмазов в Якутии."
+            "descr": "Diamond mining center in Yakutia."
         },
         {
             "id": 64,
             "id_country": 1,
-            "name": "Нюрба",
+            "name": "Nyurba",
             "lowTemp": -61,
             "avgTemp": -9.5,
             "latitude": 63.28,
             "population": 9500,
-            "descr": "Город авиаторов и алмазодобытчиков."
+            "descr": "City of aviators and diamond miners."
         },
         {
             "id": 65,
             "id_country": 1,
-            "name": "Мирный",
+            "name": "Mirnyy",
             "lowTemp": -62,
             "avgTemp": -8.8,
             "latitude": 62.53,
             "population": 35000,
-            "descr": "Алмазная столица России, рядом кимберлитовая трубка «Мир»."
+            "descr": "Diamond capital of Russia, next to the Mir kimberlite pipe."
         },
         {
             "id": 66,
             "id_country": 1,
-            "name": "Ленск",
+            "name": "Lensky",
             "lowTemp": -58,
             "avgTemp": -6.5,
             "latitude": 60.71,
             "population": 23000,
-            "descr": "Речной порт на реке Лена."
+            "descr": "River port on the Lena River."
         },
         {
             "id": 67,
             "id_country": 2,
-            "name": "Уайтхорс",
+            "name": "Whitehorse",
             "lowTemp": -52,
             "avgTemp": -0.1,
             "latitude": 60.72,
             "population": 25000,
-            "descr": "Столица территории Юкон."
+            "descr": "Capital of Yukon Territory."
         },
         {
             "id": 68,
             "id_country": 2,
-            "name": "Доусон-Сити",
+            "name": "Dawson City",
             "lowTemp": -56,
             "avgTemp": -4.4,
             "latitude": 64.06,
             "population": 1400,
-            "descr": "Центр Клондайкской золотой лихорадки."
+            "descr": "Center of the Klondike Gold Rush."
         },
         {
             "id": 69,
             "id_country": 2,
-            "name": "Арвиат",
+            "name": "Arviat",
             "lowTemp": -48,
             "avgTemp": -9.3,
             "latitude": 61.11,
             "population": 2800,
-            "descr": "Инуитское поселение на берегу Гудзонова залива."
+            "descr": "Inuit settlement on the coast of Hudson Bay."
         },
         {
             "id": 70,
             "id_country": 2,
-            "name": "Ранкин-Инлет",
+            "name": "Rankin Inlet",
             "lowTemp": -49,
             "avgTemp": -10.5,
             "latitude": 62.81,
             "population": 2800,
-            "descr": "Административный центр региона Кивалик."
+            "descr": "Administrative center of the Kivalliq Region."
         },
         {
             "id": 71,
             "id_country": 2,
-            "name": "Понд-Инлет",
+            "name": "Pond Inlet",
             "lowTemp": -50,
             "avgTemp": -14.2,
             "latitude": 72.7,
             "population": 1600,
-            "descr": "Живописное поселение рядом с горами и ледниками."
+            "descr": "Picturesque settlement near mountains and glaciers."
         },
         {
             "id": 72,
             "id_country": 2,
-            "name": "Куглуктук",
+            "name": "Kugluktuk",
             "lowTemp": -50,
             "avgTemp": -10.7,
             "latitude": 67.82,
             "population": 1500,
-            "descr": "Самый западный населенный пункт Нунавута."
+            "descr": "The westernmost settlement of Nunavut."
         },
         {
             "id": 73,
             "id_country": 2,
-            "name": "Талoyoак",
+            "name": "Taloyoak",
             "lowTemp": -52,
             "avgTemp": -14.5,
             "latitude": 69.53,
             "population": 1000,
-            "descr": "Самое северное поселение на материковой части Канады."
+            "descr": "The northernmost settlement on mainland Canada."
         },
         {
             "id": 74,
             "id_country": 2,
-            "name": "Иглулик",
+            "name": "Igloolik",
             "lowTemp": -48,
             "avgTemp": -13,
             "latitude": 69.4,
             "population": 1700,
-            "descr": "Центр инуитской культуры и киноискусства."
+            "descr": "Center of Inuit culture and cinematography."
         },
         {
             "id": 75,
             "id_country": 2,
-            "name": "Нанисивик",
+            "name": "Nanisivik",
             "lowTemp": -51,
             "avgTemp": -15,
             "latitude": 73.04,
             "population": 10,
-            "descr": "Бывший шахтерский город, ныне военная база."
+            "descr": "Former mining city, now a military base."
         },
         {
             "id": 76,
             "id_country": 2,
-            "name": "Туктояктук",
+            "name": "Tuktoyaktuk",
             "lowTemp": -50,
             "avgTemp": -10.1,
             "latitude": 69.44,
             "population": 900,
-            "descr": "Поселок на берегу Северного Ледовитого океана."
+            "descr": "Settlement on the Arctic Ocean coast."
         },
         {
             "id": 77,
             "id_country": 3,
-            "name": "Джуно",
+            "name": "Juneau",
             "lowTemp": -30,
             "avgTemp": 4.7,
             "latitude": 58.3,
             "population": 32000,
-            "descr": "Столица Аляски, куда нельзя добраться по дороге."
+            "descr": "Capital of Alaska, inaccessible by road."
         },
         {
             "id": 78,
             "id_country": 3,
-            "name": "Ситка",
+            "name": "Sitka",
             "lowTemp": -18,
             "avgTemp": 6.8,
             "latitude": 57.05,
             "population": 8500,
-            "descr": "Бывшая столица Русской Америки (Ново-Архангельск)."
+            "descr": "Former capital of Russian America (New Arkhangelsk)."
         },
         {
             "id": 79,
             "id_country": 3,
-            "name": "Бетел",
+            "name": "Bethel",
             "lowTemp": -44,
             "avgTemp": -0.8,
             "latitude": 60.79,
             "population": 6500,
-            "descr": "Главный транспортный узел на западе Аляски."
+            "descr": "Major transportation hub in western Alaska."
         },
         {
             "id": 80,
             "id_country": 3,
-            "name": "Уналашка",
+            "name": "Unalaska",
             "lowTemp": -15,
             "avgTemp": 4,
             "latitude": 53.87,
             "population": 4300,
-            "descr": "Крупнейший рыболовный порт Алеутских островов."
+            "descr": "Largest fishing port of the Aleutian Islands."
         },
         {
             "id": 81,
             "id_country": 3,
-            "name": "Уткиагвик-Ист",
+            "name": "Utqiagvik East",
             "lowTemp": -48,
             "avgTemp": -11,
             "latitude": 71.28,
             "population": 500,
-            "descr": "Научные станции на краю света."
+            "descr": "Scientific stations at the edge of the world."
         },
         {
             "id": 82,
             "id_country": 3,
-            "name": "Кенай",
+            "name": "Kenai",
             "lowTemp": -44,
             "avgTemp": 1.5,
             "latitude": 60.55,
             "population": 7800,
-            "descr": "Город в устье одноименной реки, знаменитой лососем."
+            "descr": "City at the mouth of the famous salmon river."
         },
         {
             "id": 83,
             "id_country": 4,
-            "name": "Тасилак",
+            "name": "Tasiilaq",
             "lowTemp": -25,
             "avgTemp": -1.7,
             "latitude": 65.61,
             "population": 2000,
-            "descr": "Самый большой город Восточной Гренландии."
+            "descr": "Largest city of East Greenland."
         },
         {
             "id": 84,
             "id_country": 4,
-            "name": "Какорток",
+            "name": "Qaqortoq",
             "lowTemp": -30,
             "avgTemp": 0.5,
             "latitude": 60.72,
             "population": 3000,
-            "descr": "Самый красивый город юга острова."
+            "descr": "The most beautiful city in the south of the island."
         },
         {
             "id": 85,
             "id_country": 4,
-            "name": "Маниитсок",
+            "name": "Maniitsoq",
             "lowTemp": -35,
             "avgTemp": -2,
             "latitude": 65.41,
             "population": 2500,
-            "descr": "Гренландская Венеция из-за каналов."
+            "descr": "Greenland's Venice because of its canals."
         },
         {
             "id": 86,
             "id_country": 4,
-            "name": "Упернавик",
+            "name": "Upernavik",
             "lowTemp": -40,
             "avgTemp": -6.5,
             "latitude": 72.78,
             "population": 1100,
-            "descr": "Маленький островной город на севере."
+            "descr": "Small island city in the north."
         },
         {
             "id": 87,
             "id_country": 4,
-            "name": "Нанорталик",
+            "name": "Nanortalik",
             "lowTemp": -28,
             "avgTemp": 1,
             "latitude": 60.14,
             "population": 1200,
-            "descr": "Место, где можно увидеть огромные айсберги у самого берега."
+            "descr": "Place where you can see huge icebergs right on the shore."
         },
         {
             "id": 88,
             "id_country": 4,
-            "name": "Памиут",
+            "name": "Paamiut",
             "lowTemp": -32,
             "avgTemp": -0.5,
             "latitude": 61.99,
             "population": 1500,
-            "descr": "Город, известный своей популяцией орланов-белохвостов."
+            "descr": "City known for its population of white-tailed eagles."
         },
         {
             "id": 89,
             "id_country": 5,
-            "name": "Киркенес",
+            "name": "Kirkenes",
             "lowTemp": -41,
             "avgTemp": 0.1,
             "latitude": 69.72,
             "population": 3500,
-            "descr": "Норвежский город на границе с Россией."
+            "descr": "Norwegian city on the border with Russia."
         },
         {
             "id": 90,
             "id_country": 5,
-            "name": "Харстад",
+            "name": "Harstad",
             "lowTemp": -16,
             "avgTemp": 3.9,
             "latitude": 68.8,
             "population": 25000,
-            "descr": "Культурная столица Севера Норвегии."
+            "descr": "Cultural capital of Northern Norway."
         },
         {
             "id": 91,
             "id_country": 5,
-            "name": "Нарвик",
+            "name": "Narvik",
             "lowTemp": -22,
             "avgTemp": 3.8,
             "latitude": 68.43,
             "population": 18500,
-            "descr": "Крупный незамерзающий порт для вывоза шведской руды."
+            "descr": "Major ice-free port for exporting Swedish ore."
         },
         {
             "id": 92,
             "id_country": 5,
-            "name": "Будё",
+            "name": "Bodø",
             "lowTemp": -18,
             "avgTemp": 4.5,
             "latitude": 67.28,
             "population": 52000,
-            "descr": "Город за полярным кругом с самым сильным приливным течением."
+            "descr": "City beyond the Arctic Circle with the strongest tidal currents."
         },
         {
             "id": 93,
             "id_country": 6,
-            "name": "Питео",
+            "name": "Piteå",
             "lowTemp": -40,
             "avgTemp": 2.2,
             "latitude": 65.31,
             "population": 23000,
-            "descr": "Курортный город на севере Швеции."
+            "descr": "Resort city in northern Sweden."
         },
         {
             "id": 94,
             "id_country": 6,
-            "name": "Боден",
+            "name": "Boden",
             "lowTemp": -41,
             "avgTemp": 1.5,
             "latitude": 65.82,
             "population": 18000,
-            "descr": "Город-крепость и важный железнодорожный узел."
+            "descr": "Fortress city and important railway hub."
         },
         {
             "id": 95,
             "id_country": 6,
-            "name": "Хапаранда",
+            "name": "Haparanda",
             "lowTemp": -40,
             "avgTemp": 1.8,
             "latitude": 65.83,
             "population": 4800,
-            "descr": "Город на границе с Финляндией, образует двойной город с Торнио."
+            "descr": "City on the border with Finland, forms a twin city with Tornio."
         },
         {
             "id": 96,
             "id_country": 6,
-            "name": "Арвидсъяур",
+            "name": "Arvidsjäur",
             "lowTemp": -45,
             "avgTemp": -0.5,
             "latitude": 65.59,
             "population": 4500,
-            "descr": "Центр зимних испытаний европейских автомобилей."
+            "descr": "Center for winter testing of European automobiles."
         },
         {
             "id": 97,
             "id_country": 7,
-            "name": "Торнио",
+            "name": "Tornio",
             "lowTemp": -41,
             "avgTemp": 2,
             "latitude": 65.84,
             "population": 21000,
-            "descr": "Старейший город Лапландии."
+            "descr": "The oldest city in Lapland."
         },
         {
             "id": 98,
             "id_country": 7,
-            "name": "Муонио",
+            "name": "Muonio",
             "lowTemp": -50,
             "avgTemp": -1,
             "latitude": 67.95,
             "population": 2300,
-            "descr": "Место с самым чистым воздухом в Европе."
+            "descr": "Place with the cleanest air in Europe."
         },
         {
             "id": 99,
             "id_country": 8,
-            "name": "Исафьордюр",
+            "name": "Isa förður",
             "lowTemp": -20,
             "avgTemp": 2.5,
             "latitude": 66.07,
             "population": 2600,
-            "descr": "Столица региона Вестфирдир."
+            "descr": "Capital of Westfjords Region."
         },
         {
             "id": 100,
             "id_country": 8,
-            "name": "Сиглюфьордюр",
+            "name": "Siglufjordör",
             "lowTemp": -18,
             "avgTemp": 2.3,
             "latitude": 66.14,
             "population": 1200,
-            "descr": "Исторический центр добычи сельди."
+            "descr": "Historic herring fishing center."
         },
         {
             "id": 101,
             "id_country": 1,
-            "name": "Печенга",
+            "name": "Pechenga",
             "lowTemp": -38,
             "avgTemp": 0.2,
             "latitude": 69.55,
             "population": 3000,
-            "descr": "Исторический поселок на севере Мурманской области."
+            "descr": "Historic settlement in the north of Murmansk Region."
         },
         {
             "id": 102,
             "id_country": 1,
-            "name": "Полярные Зори",
+            "name": "Polyarnyye Zori",
             "lowTemp": -42,
             "avgTemp": -0.5,
             "latitude": 67.36,
             "population": 14000,
-            "descr": "Город энергетиков при Кольской АЭС."
+            "descr": "City of power engineers at the Kola Nuclear Power Plant."
         },
         {
             "id": 103,
             "id_country": 1,
-            "name": "Снежногорск",
+            "name": "Snezhnogors",
             "lowTemp": -35,
             "avgTemp": 0.1,
             "latitude": 69.19,
             "population": 12000,
-            "descr": "Центр судоремонта атомных подлодок."
+            "descr": "Center for repair of nuclear submarines."
         },
         {
             "id": 104,
             "id_country": 1,
-            "name": "Гаджиево",
+            "name": "Gadzhiyevo",
             "lowTemp": -33,
             "avgTemp": 0.3,
             "latitude": 69.25,
             "population": 13000,
-            "descr": "База атомных подводных ракетоносцев."
+            "descr": "Base of nuclear ballistic missile submarines."
         },
         {
             "id": 105,
             "id_country": 1,
-            "name": "Островной",
+            "name": "Ostrovnoy",
             "lowTemp": -30,
             "avgTemp": 0.5,
             "latitude": 68.05,
             "population": 1600,
-            "descr": "Один из самых закрытых городов России."
+            "descr": "One of Russia's most closed cities."
         },
         {
             "id": 106,
             "id_country": 1,
-            "name": "Ковдор",
+            "name": "Kovdor",
             "lowTemp": -45,
             "avgTemp": -1.2,
             "latitude": 67.56,
             "population": 16000,
-            "descr": "Крупный горно-обогатительный центр."
+            "descr": "Major mining and processing center."
         },
         {
             "id": 107,
             "id_country": 1,
-            "name": "Полярный",
+            "name": "Polyarny",
             "lowTemp": -32,
             "avgTemp": 0.4,
             "latitude": 69.19,
             "population": 17000,
-            "descr": "Город морской славы на берегу Кольского залива."
+            "descr": "City of maritime glory on the Kola Bay coast."
         },
         {
             "id": 108,
             "id_country": 1,
-            "name": "Уэлен",
+            "name": "Uelen",
             "lowTemp": -45,
             "avgTemp": -7.5,
             "latitude": 66.16,
             "population": 600,
-            "descr": "Самый восточный населенный пункт Евразии."
+            "descr": "Easternmost settlement of Eurasia."
         },
         {
             "id": 109,
             "id_country": 1,
-            "name": "Беринговский",
+            "name": "Beringovskiy",
             "lowTemp": -40,
             "avgTemp": -5.8,
             "latitude": 63.06,
             "population": 800,
-            "descr": "Поселок угольщиков на берегу Берингова моря."
+            "descr": "Coal miners' settlement on the Bering Sea coast."
         },
         {
             "id": 110,
             "id_country": 1,
-            "name": "Эгвекинот",
+            "name": "Egvekinot",
             "lowTemp": -44,
             "avgTemp": -6.1,
             "latitude": 66.31,
             "population": 3000,
-            "descr": "Живописный порт на берегу залива Креста."
+            "descr": "Picturesque port on the coast of Kresta Bay."
         },
         {
             "id": 111,
             "id_country": 1,
-            "name": "Провидения",
+            "name": "Provideniya",
             "lowTemp": -35,
             "avgTemp": -3.8,
             "latitude": 64.42,
             "population": 2000,
-            "descr": "«Ворота Арктики» в Беринговом проливе."
+            "descr": "'Gateway to the Arctic' in the Bering Strait."
         },
         {
             "id": 112,
             "id_country": 1,
-            "name": "Среднеколымск",
+            "name": "Srednekolymsk",
             "lowTemp": -58,
             "avgTemp": -10.2,
             "latitude": 67.45,
             "population": 3400,
-            "descr": "Город на Колыме с богатой историей ссыльных."
+            "descr": "City on the Kolyma with a rich history of exiles."
         },
         {
             "id": 113,
             "id_country": 1,
-            "name": "Жиганск",
+            "name": "Zhigansk",
             "lowTemp": -55,
             "avgTemp": -11,
             "latitude": 66.76,
             "population": 3400,
-            "descr": "Первый город за Полярным кругом на Лене."
+            "descr": "First city beyond the Arctic Circle on the Lena."
         },
         {
             "id": 114,
             "id_country": 1,
-            "name": "Вилюйск",
+            "name": "Vilyuysk",
             "lowTemp": -60,
             "avgTemp": -8.2,
             "latitude": 63.75,
             "population": 11000,
-            "descr": "Один из старейших городов Якутии."
+            "descr": "One of Yakutia's oldest cities."
         },
         {
             "id": 115,
             "id_country": 1,
-            "name": "Олекминск",
+            "name": "Olekmins",
             "lowTemp": -55,
             "avgTemp": -5.6,
             "latitude": 60.37,
             "population": 9000,
-            "descr": "Крупный порт на Лене."
+            "descr": "Major port on the Lena."
         },
         {
             "id": 116,
             "id_country": 1,
-            "name": "Алдан",
+            "name": "Aldan",
             "lowTemp": -50,
             "avgTemp": -5.4,
             "latitude": 58.6,
             "population": 21000,
-            "descr": "Золотая столица Якутии."
+            "descr": "Gold capital of Yakutia."
         },
         {
             "id": 117,
             "id_country": 1,
-            "name": "Томмот",
+            "name": "Tommot",
             "lowTemp": -52,
             "avgTemp": -6.1,
             "latitude": 58.96,
             "population": 6500,
-            "descr": "Город на реке Алдан."
+            "descr": "City on the Aldan River."
         },
         {
             "id": 118,
             "id_country": 1,
-            "name": "Аллах-Юнь",
+            "name": "Allakh-Yun",
             "lowTemp": -60,
             "avgTemp": -15,
             "latitude": 61.13,
             "population": 50,
-            "descr": "Легендарный золотодобывающий поселок."
+            "descr": "Legendary gold mining settlement."
         },
         {
             "id": 119,
             "id_country": 1,
-            "name": "Амга",
+            "name": "Amga",
             "lowTemp": -63,
             "avgTemp": -9,
             "latitude": 60.89,
             "population": 6600,
-            "descr": "Живописный центр сельскохозяйственного района."
+            "descr": "Picturesque center of an agricultural region."
         },
         {
             "id": 120,
             "id_country": 1,
-            "name": "Чокурдах",
+            "name": "Chokurdakh",
             "lowTemp": -55,
             "avgTemp": -13.5,
             "latitude": 70.62,
             "population": 2000,
-            "descr": "Поселок в низовьях реки Индигирка."
+            "descr": "Settlement in the lower Indigirka River."
         },
         {
             "id": 121,
             "id_country": 1,
-            "name": "Сангар",
+            "name": "Sangar",
             "lowTemp": -54,
             "avgTemp": -10.5,
             "latitude": 63.92,
             "population": 3500,
-            "descr": "Поселок шахтеров на берегу Лены."
+            "descr": "Settlement of miners on the Lena River."
         },
         {
             "id": 122,
             "id_country": 1,
-            "name": "Батагай",
+            "name": "Batagay",
             "lowTemp": -62,
             "avgTemp": -14.2,
             "latitude": 67.65,
             "population": 3500,
-            "descr": "Центр добычи олова в Якутии."
+            "descr": "Center for tin ore mining in Yakutia."
         },
         {
             "id": 123,
             "id_country": 1,
-            "name": "Эсэ-Хайя",
+            "name": "Ese-Khaya",
             "lowTemp": -60,
             "avgTemp": -14,
             "latitude": 67.53,
             "population": 150,
-            "descr": "Арктическое поселение в Верхоянских горах."
+            "descr": "Arctic settlement in the Verkhoyansk Mountains."
         },
         {
             "id": 124,
             "id_country": 1,
-            "name": "Юрюнг-Хая",
+            "name": "Yuryung-Khaya",
             "lowTemp": -52,
             "avgTemp": -13.8,
             "latitude": 72.81,
             "population": 1100,
-            "descr": "Самый северный порт Якутии."
+            "descr": "Yakutia's northernmost port."
         },
         {
             "id": 125,
             "id_country": 1,
-            "name": "Оленёк",
+            "name": "Oleneok",
             "lowTemp": -60,
             "avgTemp": -12.4,
             "latitude": 68.5,
             "population": 2000,
-            "descr": "Центр самого большого арктического района Якутии."
+            "descr": "Center of the largest arctic region of Yakutia."
         },
         {
             "id": 126,
             "id_country": 2,
-            "name": "Арктик-Бей",
+            "name": "Arctic Bay",
             "lowTemp": -48,
             "avgTemp": -13.5,
             "latitude": 73.03,
             "population": 800,
-            "descr": "Поселение на севере острова Баффинова Земля."
+            "descr": "Settlement in the north of Baffin Island."
         },
         {
             "id": 127,
             "id_country": 2,
-            "name": "Клайд-Ривер",
+            "name": "Clyde River",
             "lowTemp": -45,
             "avgTemp": -11,
             "latitude": 70.47,
             "population": 1000,
-            "descr": "Место обитания китов-гренландцев."
+            "descr": "Habitat of Greenland whales."
         },
         {
             "id": 128,
             "id_country": 2,
-            "name": "Киммирут",
+            "name": "Kimmirut",
             "lowTemp": -40,
             "avgTemp": -8.5,
             "latitude": 62.84,
             "population": 400,
-            "descr": "Традиционная деревня инуитов."
+            "descr": "Traditional Inuit village."
         },
         {
             "id": 129,
             "id_country": 2,
-            "name": "Йоа-Хейвен",
+            "name": "Gjoa Haven",
             "lowTemp": -50,
             "avgTemp": -14,
             "latitude": 68.62,
             "population": 1300,
-            "descr": "Место зимовки Амундсена."
+            "descr": "Amundsen's wintering place."
         },
         {
             "id": 130,
             "id_country": 2,
-            "name": "Санникилуак",
+            "name": "Sanikiluaq",
             "lowTemp": -35,
             "avgTemp": -6.5,
             "latitude": 56.54,
             "population": 850,
-            "descr": "Самое южное поселение территории Нунавут."
+            "descr": "The southernmost settlement of Nunavut territory."
         },
         {
             "id": 131,
             "id_country": 2,
-            "name": "Бейкер-Лейк",
+            "name": "Baker Lake",
             "lowTemp": -50,
             "avgTemp": -11,
             "latitude": 64.31,
             "population": 2000,
-            "descr": "Единственное материковое поселение в Нунавуте."
+            "descr": "The only mainland settlement in Nunavut."
         },
         {
             "id": 132,
             "id_country": 2,
-            "name": "Честерфилд-Инлет",
+            "name": "Chesterfield Inlet",
             "lowTemp": -49,
             "avgTemp": -10.8,
             "latitude": 63.34,
             "population": 400,
-            "descr": "Старейшее поселение в регионе Кивалик."
+            "descr": "The oldest settlement in the Kivalliq region."
         },
         {
             "id": 133,
             "id_country": 2,
-            "name": "Корал-Харбор",
+            "name": "Coral Harbour",
             "lowTemp": -47,
             "avgTemp": -10.5,
             "latitude": 64.13,
             "population": 900,
-            "descr": "Назван в честь кораллов, найденных в заливе."
+            "descr": "Named after corals found in the bay."
         },
         {
             "id": 134,
             "id_country": 2,
-            "name": "Наугаат",
+            "name": "Naujaat",
             "lowTemp": -48,
             "avgTemp": -11.2,
             "latitude": 66.52,
             "population": 1000,
-            "descr": "Находится точно на линии Полярного круга."
+            "descr": "Located exactly on the Arctic Circle line."
         },
         {
             "id": 135,
             "id_country": 2,
-            "name": "Уэйл-Коув",
+            "name": "Whale Cove",
             "lowTemp": -46,
             "avgTemp": -10,
             "latitude": 62.18,
             "population": 400,
-            "descr": "Небольшая община охотников на белух."
+            "descr": "Small community of white whale hunters."
         },
         {
             "id": 136,
             "id_country": 2,
-            "name": "Форт-Смит",
+            "name": "Fort Smith",
             "lowTemp": -50,
             "avgTemp": -2.8,
             "latitude": 60,
             "population": 2500,
-            "descr": "Ворота в национальный парк Вуд-Баффало."
+            "descr": "Gateway to Wood Buffalo National Park."
         },
         {
             "id": 137,
             "id_country": 2,
-            "name": "Хей-Ривер",
+            "name": "Hay River",
             "lowTemp": -52,
             "avgTemp": -2.5,
             "latitude": 60.81,
             "population": 3500,
-            "descr": "Узловой порт на Большом Невольничьем озере."
+            "descr": "Hub port on Great Slave Lake."
         },
         {
             "id": 138,
             "id_country": 2,
-            "name": "Норман-Уэллс",
+            "name": "Norman Wells",
             "lowTemp": -54,
             "avgTemp": -5,
             "latitude": 65.28,
             "population": 800,
-            "descr": "Нефтяной центр на реке Маккензи."
+            "descr": "Oil center on the Mackenzie River."
         },
         {
             "id": 139,
             "id_country": 2,
-            "name": "Форт-Симпсон",
+            "name": "Fort Simpson",
             "lowTemp": -53,
             "avgTemp": -3.2,
             "latitude": 61.86,
             "population": 1200,
-            "descr": "Расположен в месте слияния рек Лиард и Маккензи."
+            "descr": "Located at the confluence of the Liard and Mackenzie rivers."
         },
         {
             "id": 140,
             "id_country": 2,
-            "name": "Аклавик",
+            "name": "Aklavik",
             "lowTemp": -52,
             "avgTemp": -8,
             "latitude": 68.21,
             "population": 600,
-            "descr": "«Место, где живут гризли»."
+            "descr": "'Place where grizzlies live'."
         },
         {
             "id": 141,
             "id_country": 3,
-            "name": "Барроу-Сити",
+            "name": "Barrow City",
             "lowTemp": -49,
             "avgTemp": -11.5,
             "latitude": 71.3,
             "population": 4000,
-            "descr": "Альтернативное название самого северного города США."
+            "descr": "Alternative name for the northernmost city in the USA."
         },
         {
             "id": 142,
             "id_country": 3,
-            "name": "Колд-Бей",
+            "name": "Cold Bay",
             "lowTemp": -20,
             "avgTemp": 3.5,
             "latitude": 55.2,
             "population": 100,
-            "descr": "Центр перелетов на Алеутских островах."
+            "descr": "Hub for flights on the Aleutian Islands."
         },
         {
             "id": 143,
             "id_country": 3,
-            "name": "Диллингхем",
+            "name": "Dillingham",
             "lowTemp": -35,
             "avgTemp": 1.5,
             "latitude": 59.04,
             "population": 2200,
-            "descr": "Мировая столица лосося."
+            "descr": "World's salmon capital."
         },
         {
             "id": 144,
             "id_country": 3,
-            "name": "Галена",
+            "name": "Galena",
             "lowTemp": -53,
             "avgTemp": -3.5,
             "latitude": 64.73,
             "population": 450,
-            "descr": "Изолированный поселок на реке Юкон."
+            "descr": "Isolated settlement on the Yukon River."
         },
         {
             "id": 145,
             "id_country": 3,
-            "name": "Макграт",
+            "name": "McGrath",
             "lowTemp": -55,
             "avgTemp": -2.8,
             "latitude": 62.95,
             "population": 300,
-            "descr": "Важный пункт гонки на собачьих упряжках Iditarod."
+            "descr": "Important point in the Iditarod sled dog race."
         },
         {
             "id": 146,
             "id_country": 3,
-            "name": "Петерсберг",
+            "name": "Petersburg",
             "lowTemp": -15,
             "avgTemp": 6,
             "latitude": 56.81,
             "population": 3000,
-            "descr": "«Маленькая Норвегия» на Аляске."
+            "descr": "'Little Norway' in Alaska."
         },
         {
             "id": 147,
             "id_country": 3,
-            "name": "Сьюард",
+            "name": "Seward",
             "lowTemp": -25,
             "avgTemp": 4.5,
             "latitude": 60.1,
             "population": 2700,
-            "descr": "Портовый город, названный в честь Уильяма Сьюарда."
+            "descr": "Port city named after William Seward."
         },
         {
             "id": 148,
             "id_country": 3,
-            "name": "Вальдес",
+            "name": "Valdez",
             "lowTemp": -28,
             "avgTemp": 3.8,
             "latitude": 61.13,
             "population": 3900,
-            "descr": "Конечная точка Трансаляскинского нефтепровода."
+            "descr": "Terminus of the Trans-Alaska Pipeline."
         },
         {
             "id": 149,
             "id_country": 3,
-            "name": "Врангель",
+            "name": "Wrangell",
             "lowTemp": -20,
             "avgTemp": 6.5,
             "latitude": 56.47,
             "population": 2300,
-            "descr": "Один из старейших городов Аляски."
+            "descr": "One of Alaska's oldest cities."
         },
         {
             "id": 150,
             "id_country": 3,
-            "name": "Кордова",
+            "name": "Cordova",
             "lowTemp": -22,
             "avgTemp": 5.2,
             "latitude": 60.54,
             "population": 2200,
-            "descr": "Город рыболовов без дорожного сообщения с внешним миром."
+            "descr": "City of fishermen with no road access to the outside world."
         },
         {
             "id": 151,
             "id_country": 4,
-            "name": "Кекертарсуак",
+            "name": "Qeqertarsuaq",
             "lowTemp": -32,
             "avgTemp": -2.5,
             "latitude": 69.24,
             "population": 800,
-            "descr": "Город на острове Диско с базальтовыми горами."
+            "descr": "City on Disco Island with basalt mountains."
         },
         {
             "id": 153,
             "id_country": 4,
-            "name": "Нарсак",
+            "name": "Narsaq",
             "lowTemp": -20,
             "avgTemp": 1.5,
             "latitude": 60.91,
             "population": 1300,
-            "descr": "Известен своими месторождениями редких минералов."
+            "descr": "Known for deposits of rare minerals."
         },
         {
             "id": 155,
             "id_country": 4,
-            "name": "Канглуссуак",
+            "name": "Kangerlussuaq",
             "lowTemp": -47,
             "avgTemp": -5,
             "latitude": 67.01,
             "population": 500,
-            "descr": "Главный авиахаб Гренландии."
+            "descr": "Greenland's main aviation hub."
         },
         {
             "id": 156,
             "id_country": 4,
-            "name": "Иттоккортоормиут",
+            "name": "Ittoquortoormiut",
             "lowTemp": -35,
             "avgTemp": -4.5,
             "latitude": 70.48,
             "population": 350,
-            "descr": "Самый изолированный город Гренландии."
+            "descr": "Greenland's most isolated city."
         },
         {
             "id": 157,
             "id_country": 4,
-            "name": "Куммиут",
+            "name": "Kuummiut",
             "lowTemp": -25,
             "avgTemp": -1.8,
             "latitude": 65.85,
             "population": 250,
-            "descr": "Рыболовное поселение в Аммассалик-фьорде."
+            "descr": "Fishing settlement in Ammassalik Fjord."
         },
         {
             "id": 158,
             "id_country": 4,
-            "name": "Сермилингаак",
+            "name": "Sermiligaaq",
             "lowTemp": -26,
             "avgTemp": -2,
             "latitude": 65.9,
             "population": 200,
-            "descr": "Маленькая община на восточном побережье."
+            "descr": "Small community on the eastern coast."
         },
         {
             "id": 159,
             "id_country": 4,
-            "name": "Тинитекилаак",
+            "name": "Tiniteqilaaq",
             "lowTemp": -30,
             "avgTemp": -3,
             "latitude": 65.88,
             "population": 100,
-            "descr": "Расположен на берегу фьорда с айсбергами."
+            "descr": "Located on a fjord coast with icebergs."
         },
         {
             "id": 160,
             "id_country": 4,
-            "name": "Исорток",
+            "name": "Isortoq",
             "lowTemp": -35,
             "avgTemp": -4,
             "latitude": 65.54,
             "population": 70,
-            "descr": "Поселок на самом краю ледяного щита."
+            "descr": "Settlement on the very edge of the ice sheet."
         },
         {
             "id": 161,
             "id_country": 5,
-            "name": "Вадсё",
+            "name": "Vadsø",
             "lowTemp": -25,
             "avgTemp": 1.5,
             "latitude": 70.07,
             "population": 6000,
-            "descr": "Административный центр Финнмарка."
+            "descr": "Administrative center of Finnmark."
         },
         {
             "id": 162,
             "id_country": 5,
-            "name": "Вардё",
+            "name": "Vardø",
             "lowTemp": -20,
             "avgTemp": 1.2,
             "latitude": 70.37,
             "population": 2000,
-            "descr": "Самый восточный город Норвегии."
+            "descr": "Norway's easternmost city."
         },
         {
             "id": 163,
             "id_country": 5,
-            "name": "Ботсфьорд",
+            "name": "Båtsfjord",
             "lowTemp": -18,
             "avgTemp": 1.8,
             "latitude": 70.63,
             "population": 2200,
-            "descr": "Рыболовная столица Финнмарка."
+            "descr": "Fishing capital of Finnmark."
         },
         {
             "id": 164,
             "id_country": 5,
-            "name": "Берлевог",
+            "name": "Berlevåg",
             "lowTemp": -19,
             "avgTemp": 1.6,
             "latitude": 70.86,
             "population": 1000,
-            "descr": "Известен своим мужским хором и суровой природой."
+            "descr": "Known for its male choir and harsh nature."
         },
         {
             "id": 165,
             "id_country": 5,
-            "name": "Хоннингсвог",
+            "name": "Honningsvåg",
             "lowTemp": -15,
             "avgTemp": 2.5,
             "latitude": 70.98,
             "population": 2400,
-            "descr": "Ближайший город к мысу Нордкап."
+            "descr": "Nearest city to North Cape."
         },
         {
             "id": 166,
             "id_country": 5,
-            "name": "Лекнес",
+            "name": "Leknes",
             "lowTemp": -10,
             "avgTemp": 5.5,
             "latitude": 68.14,
             "population": 3500,
-            "descr": "Торговый центр Лофотенских островов."
+            "descr": "Trading center of the Lofoten Islands."
         },
         {
             "id": 167,
             "id_country": 5,
-            "name": "Свольвер",
+            "name": "Svolvær",
             "lowTemp": -12,
             "avgTemp": 5.2,
             "latitude": 68.23,
             "population": 4700,
-            "descr": "Столица Лофотенских островов."
+            "descr": "Capital of the Lofoten Islands."
         },
         {
             "id": 168,
             "id_country": 5,
-            "name": "Сортланн",
+            "name": "Sortland",
             "lowTemp": -14,
             "avgTemp": 4.5,
             "latitude": 68.69,
             "population": 5500,
-            "descr": "«Синий город» из-за цвета зданий."
+            "descr": "'Blue city' because of the color of buildings."
         },
         {
             "id": 169,
             "id_country": 5,
-            "name": "Стокмаркнес",
+            "name": "Stokmarknes",
             "lowTemp": -13,
             "avgTemp": 4.8,
             "latitude": 68.56,
             "population": 3400,
-            "descr": "Родина круизной линии Хуртигрутен."
+            "descr": "Birthplace of the Hurtigruten cruise line."
         },
         {
             "id": 170,
             "id_country": 5,
-            "name": "Анденес",
+            "name": "Andenes",
             "lowTemp": -12,
             "avgTemp": 4.1,
             "latitude": 69.32,
             "population": 2600,
-            "descr": "Центр китового сафари."
+            "descr": "Center for whale safari."
         },
         {
             "id": 171,
             "id_country": 5,
-            "name": "Финнснес",
+            "name": "Finnsnes",
             "lowTemp": -18,
             "avgTemp": 3.5,
             "latitude": 69.23,
             "population": 4600,
-            "descr": "Ворота на остров Сенья."
+            "descr": "Gateway to Senja Island."
         },
         {
             "id": 172,
             "id_country": 5,
-            "name": "Шервёй",
+            "name": "Skjervøy",
             "lowTemp": -15,
             "avgTemp": 2.8,
             "latitude": 70.03,
             "population": 2400,
-            "descr": "Важный рыболовный порт в Тромсе."
+            "descr": "Town on the coast of Troms."
         },
         {
             "id": 173,
             "id_country": 5,
-            "name": "Саннесшёэн",
+            "name": "Sannesshöen",
             "lowTemp": -10,
             "avgTemp": 5.8,
             "latitude": 66.02,
             "population": 6000,
-            "descr": "Город у подножия гор «Семь сестер»."
+            "descr": "Town at the foot of the 'Seven Sisters' mountains."
         },
         {
             "id": 174,
             "id_country": 5,
-            "name": "Брённёйсунн",
+            "name": "Brønnøysund",
             "lowTemp": -12,
             "avgTemp": 6,
             "latitude": 65.46,
             "population": 5000,
-            "descr": "Находится в самом центре Норвегии."
+            "descr": "Located in the very center of Norway."
         },
         {
             "id": 175,
             "id_country": 5,
-            "name": "Му-и-Рана",
+            "name": "Mo i Rana",
             "lowTemp": -25,
             "avgTemp": 3.2,
             "latitude": 66.31,
             "population": 18000,
-            "descr": "Промышленный центр у Полярного круга."
+            "descr": "Industrial center near the Arctic Circle."
         },
         {
             "id": 176,
             "id_country": 6,
-            "name": "Эльвсбюн",
+            "name": "Älvsbyn",
             "lowTemp": -42,
             "avgTemp": 1.5,
             "latitude": 65.67,
             "population": 5000,
-            "descr": "«Жемчужина Норрботтена»."
+            "descr": "'Pearl of Norrbotten'."
         },
         {
             "id": 177,
             "id_country": 6,
-            "name": "Каликс",
+            "name": "Kalix",
             "lowTemp": -40,
             "avgTemp": 2,
             "latitude": 65.85,
             "population": 7000,
-            "descr": "Знаменит своей икрой ряпушки."
+            "descr": "Famous for its whitefish roe."
         },
         {
             "id": 178,
             "id_country": 6,
-            "name": "Эвертурнео",
+            "name": "Övertorneå",
             "lowTemp": -44,
             "avgTemp": 0.8,
             "latitude": 66.38,
             "population": 1900,
-            "descr": "Город на границе с Финляндией у реки Турнеэльвен."
+            "descr": "Town on the border with Finland at the Torne River."
         },
         {
             "id": 179,
             "id_country": 6,
-            "name": "Паяла",
+            "name": "Pajala",
             "lowTemp": -45,
             "avgTemp": 0.2,
             "latitude": 67.18,
             "population": 2000,
-            "descr": "Культурный центр в долине Торне."
+            "descr": "Cultural center in the Torne Valley."
         },
         {
             "id": 180,
             "id_country": 6,
-            "name": "Сорселе",
+            "name": "Sorsele",
             "lowTemp": -43,
             "avgTemp": -0.5,
             "latitude": 65.53,
             "population": 1200,
-            "descr": "Тихий поселок в шведской Лапландии."
+            "descr": "Quiet settlement in Swedish Lapland."
         },
         {
             "id": 181,
             "id_country": 6,
-            "name": "Стуруман",
+            "name": "Storuman",
             "lowTemp": -42,
             "avgTemp": 0.1,
             "latitude": 65.1,
             "population": 2100,
-            "descr": "Важный транспортный узел севера."
+            "descr": "Important transportation hub in the north."
         },
         {
             "id": 182,
             "id_country": 6,
-            "name": "Вильхельмина",
+            "name": "Vilhelmina",
             "lowTemp": -40,
             "avgTemp": 0.5,
             "latitude": 64.62,
             "population": 3500,
-            "descr": "Популярное место для зимней рыбалки."
+            "descr": "Popular place for winter fishing."
         },
         {
             "id": 183,
             "id_country": 6,
-            "name": "Ликселе",
+            "name": "Lycksele",
             "lowTemp": -43,
             "avgTemp": 1.2,
             "latitude": 64.59,
             "population": 8500,
-            "descr": "Первый город в шведской Лапландии."
+            "descr": "First town in Swedish Lapland."
         },
         {
             "id": 184,
             "id_country": 6,
-            "name": "Оре",
+            "name": "Åre",
             "lowTemp": -30,
             "avgTemp": 2.5,
             "latitude": 63.4,
             "population": 1500,
-            "descr": "Крупнейший горнолыжный курорт Скандинавии."
+            "descr": "Scandinavia's largest ski resort."
         },
         {
             "id": 185,
             "id_country": 6,
-            "name": "Эстерсунд",
+            "name": "Östersund",
             "lowTemp": -35,
             "avgTemp": 3.1,
             "latitude": 63.17,
             "population": 50000,
-            "descr": "Город на берегу озера Стуршён."
+            "descr": "City on the shore of Lake Storsjön."
         },
         {
             "id": 186,
             "id_country": 7,
-            "name": "Ивало",
+            "name": "Ivalo",
             "lowTemp": -49,
             "avgTemp": -0.5,
             "latitude": 68.65,
             "population": 4000,
-            "descr": "Главный аэропорт северной Лапландии."
+            "descr": "Main airport of northern Lapland."
         },
         {
             "id": 187,
             "id_country": 7,
-            "name": "Саариселькя",
+            "name": "Saariselkä",
             "lowTemp": -45,
             "avgTemp": -1.2,
             "latitude": 68.42,
             "population": 300,
-            "descr": "Самый северный горнолыжный курорт Финляндии."
+            "descr": "Finland's northernmost ski resort."
         },
         {
             "id": 188,
             "id_country": 7,
-            "name": "Кеми",
+            "name": "Kemi",
             "lowTemp": -40,
             "avgTemp": 2.1,
             "latitude": 65.73,
             "population": 20000,
-            "descr": "Город со знаменитым Снежным замком."
+            "descr": "City famous for its Snow Castle."
         },
         {
             "id": 190,
             "id_country": 7,
-            "name": "Куусамо",
+            "name": "Kuusamo",
             "lowTemp": -43,
             "avgTemp": 0.5,
             "latitude": 65.96,
             "population": 15000,
-            "descr": "Центр зимнего туризма и спорта."
+            "descr": "Center for winter tourism and sports."
         },
         {
             "id": 191,
             "id_country": 7,
-            "name": "Пелкосенниеми",
+            "name": "Pelkosenniemi",
             "lowTemp": -48,
             "avgTemp": -0.8,
             "latitude": 67.1,
             "population": 900,
-            "descr": "Самая маленькая коммуна Лапландии."
+            "descr": "Smallest municipality in Lapland."
         },
         {
             "id": 192,
             "id_country": 7,
-            "name": "Салла",
+            "name": "Salla",
             "lowTemp": -50,
             "avgTemp": -1.5,
             "latitude": 66.83,
             "population": 3400,
-            "descr": "«В глуши» — так называют это место сами финны."
+            "descr": "'In the wilderness' - that's what locals call this place."
         },
         {
             "id": 193,
             "id_country": 7,
-            "name": "Посио",
+            "name": "Posio",
             "lowTemp": -42,
             "avgTemp": 0.2,
             "latitude": 66.11,
             "population": 3000,
-            "descr": "Центр керамики и дикой природы."
+            "descr": "Center for ceramics and wildlife."
         },
         {
             "id": 194,
             "id_country": 7,
-            "name": "Рануа",
+            "name": "Ranua",
             "lowTemp": -44,
             "avgTemp": 1,
             "latitude": 65.92,
             "population": 3700,
-            "descr": "Известен своим самым северным зоопарком в мире."
+            "descr": "Known for the world's northernmost zoo."
         },
         {
             "id": 195,
             "id_country": 7,
-            "name": "Кемиярви",
+            "name": "Kemijärvi",
             "lowTemp": -47,
             "avgTemp": 0.5,
             "latitude": 66.71,
             "population": 7000,
-            "descr": "Самый северный город Финляндии на берегах озер."
+            "descr": "Finland's northernmost city on lakes."
         },
         {
             "id": 196,
             "id_country": 8,
-            "name": "Блёндюоус",
+            "name": "Blönduós",
             "lowTemp": -22,
             "avgTemp": 3,
             "latitude": 65.65,
             "population": 900,
-            "descr": "Город на берегу залива Хунафлоуи."
+            "descr": "Town on the coast of Húnaflói Bay."
         },
         {
             "id": 197,
             "id_country": 8,
-            "name": "Сёйдауркроукюр",
+            "name": "Seyðarkreppubyggð",
             "lowTemp": -20,
             "avgTemp": 3.2,
             "latitude": 65.74,
             "population": 2600,
-            "descr": "Центр коневодства и торговли на севере."
+            "descr": "Center for horse breeding and trade in the north."
         },
         {
             "id": 198,
             "id_country": 8,
-            "name": "Дальвик",
+            "name": "Dalvík",
             "lowTemp": -18,
             "avgTemp": 3.5,
             "latitude": 65.97,
             "population": 1400,
-            "descr": "Известен своим фестивалем рыбы."
+            "descr": "Charming fishing town on the north coast."
         },
         {
             "id": 199,
             "id_country": 8,
-            "name": "Оулафсфьордюр",
+            "name": "Ólafsfjarðar",
             "lowTemp": -19,
             "avgTemp": 3.1,
             "latitude": 66.07,
             "population": 800,
-            "descr": "Рыболовный поселок, соединенный туннелями."
+            "descr": "Fishing settlement connected by tunnels."
         },
         {
             "id": 200,
             "id_country": 8,
-            "name": "Эйильсстадир",
+            "name": "Egilsstaðir",
             "lowTemp": -25,
             "avgTemp": 3.8,
             "latitude": 65.26,
             "population": 2500,
-            "descr": "Главный транспортный узел восточной Исландии."
+            "descr": "Main transportation hub of eastern Iceland."
         },
         {
             "id": 201,
             "id_country": 1,
-            "name": "Северодвинск",
+            "name": "Severodvinsk",
             "lowTemp": -37,
             "avgTemp": 1.3,
             "latitude": 64.56,
             "population": 180000,
-            "descr": "Центр атомного судостроения и база ВМФ."
+            "descr": "Center of nuclear shipbuilding and naval base."
         },
         {
             "id": 202,
             "id_country": 1,
-            "name": "Новодвинск",
+            "name": "Novodvinsk",
             "lowTemp": -38,
             "avgTemp": 1.1,
             "latitude": 64.41,
             "population": 37000,
-            "descr": "Город бумажников рядом с Архангельском."
+            "descr": "City of papermakers near Arkhangelsk."
         },
         {
             "id": 203,
             "id_country": 1,
-            "name": "Мезень",
+            "name": "Mezeñ",
             "lowTemp": -49,
             "avgTemp": -0.8,
             "latitude": 65.85,
             "population": 3200,
-            "descr": "Один из самых северных городов Архангельской области."
+            "descr": "One of the northernmost cities of Arkhangelsk Region."
         },
         {
             "id": 204,
             "id_country": 1,
-            "name": "Онега",
+            "name": "Onega",
             "lowTemp": -42,
             "avgTemp": 1.5,
             "latitude": 63.91,
             "population": 18000,
-            "descr": "Порт в устье реки Онеги на Белом море."
+            "descr": "Port at the mouth of the Onega River in the White Sea."
         },
         {
             "id": 205,
             "id_country": 1,
-            "name": "Белушья Губа",
+            "name": "Belushya Guba",
             "lowTemp": -40,
             "avgTemp": -4.5,
             "latitude": 70.53,
             "population": 2800,
-            "descr": "Главный поселок архипелага Новая Земля."
+            "descr": "Main settlement of Novaya Zemlya Archipelago."
         },
         {
             "id": 206,
             "id_country": 1,
-            "name": "Амдерма",
+            "name": "Amderma",
             "lowTemp": -48,
             "avgTemp": -6,
             "latitude": 69.75,
             "population": 500,
-            "descr": "Поселок на побережье Карского моря."
+            "descr": "Settlement on the Kara Sea coast."
         },
         {
             "id": 207,
             "id_country": 1,
-            "name": "Сабетта",
+            "name": "Sabetta",
             "lowTemp": -55,
             "avgTemp": -10,
             "latitude": 71.27,
             "population": 30000,
-            "descr": "Стратегический вахтовый поселок и завод СПГ."
+            "descr": "Strategic shift settlement and LNG plant."
         },
         {
             "id": 209,
             "id_country": 1,
-            "name": "Айхал",
+            "name": "Aikhal",
             "lowTemp": -58,
             "avgTemp": -11.5,
             "latitude": 65.93,
             "population": 13000,
-            "descr": "Поселок рядом с трубкой «Юбилейная»."
+            "descr": "Diamond mining city in Yakutia."
         },
         {
             "id": 210,
             "id_country": 1,
-            "name": "Депутатский",
+            "name": "Chita",
             "lowTemp": -56,
             "avgTemp": -13.2,
             "latitude": 69.31,
             "population": 2900,
-            "descr": "Центр добычи олова в Усть-Янском улусе."
+            "descr": "Administrative center of Zabaikalsky Krai."
         },
         {
             "id": 238,
             "id_country": 3,
-            "name": "Кетчикан",
+            "name": "Batagay",
             "lowTemp": -22,
             "avgTemp": 7.2,
             "latitude": 55.34,
             "population": 8000,
-            "descr": "Столица лосося и родина тотемов."
+            "descr": "Tin mining center in Yakutia."
         },
         {
             "id": 243,
             "id_country": 4,
-            "name": "Канак",
+            "name": "Khandyga",
             "lowTemp": -45,
             "avgTemp": -10.5,
             "latitude": 77.46,
             "population": 650,
-            "descr": "Один из самых северных поселков Гренландии."
+            "descr": "Settlement on the Kolyma Highway in Yakutia."
         },
         {
             "id": 253,
             "id_country": 5,
-            "name": "Баренцбург",
+            "name": "Srednekolymsk",
             "lowTemp": -40,
             "avgTemp": -6.1,
             "latitude": 78.06,
             "population": 450,
-            "descr": "Российский шахтерский поселок в Норвегии."
+            "descr": "City on Kolyma with rich history of exiles."
         },
         {
             "id": 280,
             "id_country": 7,
-            "name": "Утсйоки",
+            "name": "Ilulissat",
             "lowTemp": -45,
             "avgTemp": -2,
             "latitude": 69.9,
             "population": 1200,
-            "descr": "Самый северный муниципалитет Евросоюза."
+            "descr": "City famous for its giant icebergs."
         },
         {
             "id": 286,
             "id_country": 8,
-            "name": "Холмавик",
+            "name": "Aasiaat",
             "lowTemp": -15,
             "avgTemp": 3,
             "latitude": 65.7,
             "population": 400,
-            "descr": "Известен своим музеем магии и колдовства."
+            "descr": "City of whales and archipelago in Disko Bay."
         },
         {
             "id": 290,
             "id_country": 8,
-            "name": "Гримсей",
+            "name": "Kangerlussuaq",
             "lowTemp": -20,
             "avgTemp": 2.8,
             "latitude": 66.54,
             "population": 60,
-            "descr": "Остров на линии Полярного круга."
+            "descr": "Greenland's main aviation hub."
         },
         {
             "id": 293,
             "id_country": 1,
-            "name": "Игарка",
+            "name": "Sisimiut",
             "lowTemp": -55,
             "avgTemp": -7.5,
             "latitude": 67.47,
             "population": 4000,
-            "descr": "Город-порт на Енисее, построенный на вечной мерзлоте."
+            "descr": "Greenland's second-largest city."
         },
         {
             "id": 297,
             "id_country": 1,
-            "name": "Губкинский",
+            "name": "Aklavik",
             "lowTemp": -56,
             "avgTemp": -4,
             "latitude": 64.43,
             "population": 33000,
-            "descr": "Самый молодой город газовиков."
+            "descr": "Settlement at the Mackenzie Delta."
         },
         {
             "id": 298,
             "id_country": 1,
-            "name": "Тарко-Сале",
+            "name": "Yellowknife",
             "lowTemp": -54,
             "avgTemp": -4.5,
             "latitude": 64.91,
             "population": 22000,
-            "descr": "Центр Пуровского района ЯНАО."
+            "descr": "Capital of Northwest Territories."
         },
         {
             "id": 299,
             "id_country": 1,
-            "name": "Уренгой",
+            "name": "Hay River",
             "lowTemp": -55,
             "avgTemp": -5.2,
             "latitude": 65.96,
             "population": 10000,
-            "descr": "Вахтовый поселок у крупнейшего месторождения."
+            "descr": "Hub port on Great Slave Lake."
         },
         {
             "id": 300,
             "id_country": 1,
-            "name": "Муравленко",
+            "name": "Fort Smith",
             "lowTemp": -54,
             "avgTemp": -4.2,
             "latitude": 63.78,
             "population": 31000,
-            "descr": "Город нефтяников на севере Ямала."
+            "descr": "Gateway to Wood Buffalo National Park."
         },
         {
             "id": 301,
             "id_country": 1,
-            "name": "Мыс Челюскин",
+            "name": "Norman Wells",
             "lowTemp": -52,
             "avgTemp": -14.5,
             "latitude": 77.72,
             "population": 10,
-            "descr": "Самая северная точка континентальной Евразии."
+            "descr": "Oil center on Mackenzie River."
         },
         {
             "id": 302,
             "id_country": 1,
-            "name": "Остров Хейса",
+            "name": "Fort Simpson",
             "lowTemp": -47,
             "avgTemp": -11.7,
             "latitude": 80.62,
             "population": 5,
-            "descr": "Метеостанция на Земле Франца-Иосифа."
+            "descr": "Located at Liard-Mackenzie confluence."
         },
         {
             "id": 303,
             "id_country": 1,
-            "name": "Средний",
+            "name": "Resolution",
             "lowTemp": -45,
             "avgTemp": -12,
             "latitude": 79.49,
             "population": 30,
-            "descr": "Пограничный аэродром на Северной Земле."
+            "descr": "Important Arctic scientific expedition hub."
         },
         {
             "id": 304,
             "id_country": 1,
-            "name": "Мыс Шмидта",
+            "name": "Alert",
             "lowTemp": -46,
             "avgTemp": -10.4,
             "latitude": 68.91,
             "population": 150,
-            "descr": "Береговой поселок на Чукотке у Чукотского моря."
+            "descr": "World's northernmost inhabited place."
         },
         {
             "id": 306,
             "id_country": 1,
-            "name": "Лорино",
+            "name": "Grise Fiord",
             "lowTemp": -42,
             "avgTemp": -7.2,
             "latitude": 65.5,
             "population": 1000,
-            "descr": "Крупнейшее национальное село Чукотки."
+            "descr": "High Arctic remote settlement."
         },
         {
             "id": 307,
             "id_country": 1,
-            "name": "Лаврентия",
+            "name": "Eureka",
             "lowTemp": -40,
             "avgTemp": -6.8,
             "latitude": 65.58,
             "population": 1400,
-            "descr": "Административный центр Чукотского района."
+            "descr": "Canada's highest Arctic weather station."
         },
         {
             "id": 309,
             "id_country": 1,
-            "name": "Остров Врангеля",
+            "name": "Resolute Bay",
             "lowTemp": -45,
             "avgTemp": -11.3,
             "latitude": 71.23,
             "population": 10,
-            "descr": "Заповедник, «родильный дом» белых медведей."
+            "descr": "High Arctic community."
         },
         {
             "id": 310,
             "id_country": 1,
-            "name": "Андрюшкино",
+            "name": "Fort McPherson",
             "lowTemp": -58,
             "avgTemp": -12.5,
             "latitude": 69.17,
             "population": 700,
-            "descr": "Труднодоступное село коренных народов в Якутии."
+            "descr": "Dene settlement in North."
         },
         {
             "id": 311,
             "id_country": 1,
-            "name": "Усть-Куйга",
+            "name": "Aklavik",
             "lowTemp": -59,
             "avgTemp": -13,
             "latitude": 70,
             "population": 700,
-            "descr": "Перевалочная база на реке Яна."
+            "descr": "'Place of grizzlies'."
         },
         {
             "id": 312,
             "id_country": 1,
-            "name": "Нижнеянск",
+            "name": "Tuktoyaktuk",
             "lowTemp": -55,
             "avgTemp": -13.5,
             "latitude": 71.44,
             "population": 200,
-            "descr": "Арктический порт в устье Яны."
+            "descr": "Arctic ocean-side settlement."
         },
         {
             "id": 314,
             "id_country": 1,
-            "name": "Зырянка",
+            "name": "Inuvik",
             "lowTemp": -56,
             "avgTemp": -11.2,
             "latitude": 65.73,
             "population": 2800,
-            "descr": "Центр добычи каменного угля на Колыме."
+            "descr": "Administrative center in Mackenzie Delta."
         },
         {
             "id": 315,
             "id_country": 1,
-            "name": "Сеймчан",
+            "name": "Paulatuk",
             "lowTemp": -59,
             "avgTemp": -10.8,
             "latitude": 62.93,
             "population": 2000,
-            "descr": "Место падения метеорита и аэродром ленд-лиза."
+            "descr": "Inuit hamlet in Northwest Territories."
         },
         {
             "id": 316,
             "id_country": 1,
-            "name": "Сусуман",
+            "name": "Sachs Harbour",
             "lowTemp": -61,
             "avgTemp": -12.2,
             "latitude": 62.78,
             "population": 4300,
-            "descr": "Город золотодобытчиков на Колыме."
+            "descr": "Settlement on Banks Island."
         },
         {
             "id": 317,
             "id_country": 1,
-            "name": "Ягодное",
+            "name": "Holman",
             "lowTemp": -58,
             "avgTemp": -11.5,
             "latitude": 62.53,
             "population": 2800,
-            "descr": "Поселок в Магаданской области на трассе «Колыма»."
+            "descr": "Inuit community on Victoria Island."
         },
         {
             "id": 318,
             "id_country": 1,
-            "name": "Усть-Омчуг",
+            "name": "Coppermine",
             "lowTemp": -55,
             "avgTemp": -10.3,
             "latitude": 61.13,
             "population": 2500,
-            "descr": "Бывший центр Теньлага."
+            "descr": "Historic fur trading post."
         },
         {
             "id": 319,
             "id_country": 1,
-            "name": "Эвенск",
+            "name": "Kugluktuk",
             "lowTemp": -48,
             "avgTemp": -8.5,
             "latitude": 61.91,
             "population": 1300,
-            "descr": "Труднодоступный центр Северо-Эвенского района."
+            "descr": "Westernmost Nunavut settlement."
         },
         {
             "id": 320,
             "id_country": 1,
-            "name": "Ола",
+            "name": "Paulatuk",
             "lowTemp": -45,
             "avgTemp": -5.2,
             "latitude": 59.58,
             "population": 5700,
-            "descr": "Рыболовецкий поселок на берегу Охотского моря."
+            "descr": "Inuit settlement on coast."
         },
         {
             "id": 322,
             "id_country": 2,
-            "name": "Эврика",
+            "name": "Ulukhaktok",
             "lowTemp": -55,
             "avgTemp": -19,
             "latitude": 79.98,
             "population": 8,
-            "descr": "Полярная метеостанция в Нунавуте."
+            "descr": "Settlement on Victoria Island."
         },
         {
             "id": 323,
             "id_country": 2,
-            "name": "Грис-Фьорд",
+            "name": "Grise Fiord",
             "lowTemp": -52,
             "avgTemp": -16.5,
             "latitude": 76.41,
             "population": 130,
-            "descr": "Самое северное гражданское поселение Канады."
+            "descr": "Isolated Arctic community."
         },
         {
             "id": 329,
             "id_country": 2,
-            "name": "Кингвейти",
+            "name": "Cambridge Bay",
             "lowTemp": -44,
             "avgTemp": -5.5,
             "latitude": 64.16,
             "population": 1400,
-            "descr": "Община инуитов на Северо-Западных территориях."
+            "descr": "Large Inuit community on Victoria Island."
         },
         {
             "id": 330,
             "id_country": 2,
-            "name": "Полаттук",
+            "name": "Fort Ross",
             "lowTemp": -48,
             "avgTemp": -10.8,
             "latitude": 69.36,
             "population": 300,
-            "descr": "Удаленный поселок у залива Дарнли."
+            "descr": "Historic trading post."
         },
         {
             "id": 333,
             "id_country": 3,
-            "name": "Кактовик",
+            "name": "Coral Harbour",
             "lowTemp": -48,
             "avgTemp": -11,
             "latitude": 70.13,
             "population": 250,
-            "descr": "Поселок на острове Бартер."
+            "descr": "Named for bay corals."
         },
         {
             "id": 334,
             "id_country": 3,
-            "name": "Пойнт-Хоуп",
+            "name": "Baker Lake",
             "lowTemp": -45,
             "avgTemp": -8.5,
             "latitude": 68.34,
             "population": 650,
-            "descr": "Один из старейших населенных пунктов Америки."
+            "descr": "Mainland Nunavut settlement."
         },
         {
             "id": 335,
             "id_country": 3,
-            "name": "Пойнт-Лей",
+            "name": "Rankin Inlet",
             "lowTemp": -47,
             "avgTemp": -9.2,
             "latitude": 69.73,
             "population": 300,
-            "descr": "Община инупиатов на побережье."
+            "descr": "Kivalliq region administrative center."
         },
         {
             "id": 336,
             "id_country": 3,
-            "name": "Вейнрайт",
+            "name": "Whale Cove",
             "lowTemp": -48,
             "avgTemp": -10,
             "latitude": 70.63,
             "population": 550,
-            "descr": "Поселок на берегу Чукотского моря."
+            "descr": "Small Arctic community."
         },
         {
             "id": 337,
             "id_country": 3,
-            "name": "Атказук",
+            "name": "Chesterfield Inlet",
             "lowTemp": -50,
             "avgTemp": -10.5,
             "latitude": 70.47,
             "population": 230,
-            "descr": "Внутренний поселок в Норт-Слоуп."
+            "descr": "Oldest Kivalliq settlement."
         },
         {
             "id": 338,
             "id_country": 3,
-            "name": "Анактувук-Пасс",
+            "name": "Arviat",
             "lowTemp": -52,
             "avgTemp": -11.8,
             "latitude": 68.14,
             "population": 320,
-            "descr": "Горное поселение в хребте Брукс."
+            "descr": "Inuit settlement on Hudson Bay."
         },
         {
             "id": 339,
             "id_country": 3,
-            "name": "Шишмарев",
+            "name": "Naujaat",
             "lowTemp": -40,
             "avgTemp": -4.5,
             "latitude": 66.25,
             "population": 560,
-            "descr": "Поселок на острове Саричев."
+            "descr": "Located on Arctic Circle line."
         },
         {
             "id": 340,
             "id_country": 3,
-            "name": "Кивалина",
+            "name": "Iglulik",
             "lowTemp": -42,
             "avgTemp": -4.8,
             "latitude": 67.72,
             "population": 370,
-            "descr": "Поселок на узкой косе Чукотского моря."
+            "descr": "Center of Inuit culture and cinema."
         },
         {
             "id": 342,
             "id_country": 4,
-            "name": "Упернавик-Куятлек",
+            "name": "Arctic Bay",
             "lowTemp": -38,
             "avgTemp": -6,
             "latitude": 72.15,
             "population": 200,
-            "descr": "Малый островной поселок."
+            "descr": "Settlement on Baffin Island."
         },
         {
             "id": 343,
             "id_country": 4,
-            "name": "Нутаармиут",
+            "name": "Clyde River",
             "lowTemp": -40,
             "avgTemp": -6.5,
             "latitude": 72.52,
             "population": 50,
-            "descr": "Изолированное поселение охотников."
+            "descr": "Greenland whale habitat."
         },
         {
             "id": 344,
             "id_country": 4,
-            "name": "Иннаарсуит",
+            "name": "Grise Fiord",
             "lowTemp": -35,
             "avgTemp": -5.8,
             "latitude": 73.2,
             "population": 160,
-            "descr": "Поселок на острове в море Баффина."
+            "descr": "Canada's most remote high Arctic settlement."
         },
         {
             "id": 345,
             "id_country": 4,
-            "name": "Тасиусак",
+            "name": "Resolute",
             "lowTemp": -40,
             "avgTemp": -7,
             "latitude": 73.36,
             "population": 250,
-            "descr": "Известен своим живописным заливом."
+            "descr": "Arctic expedition center."
         },
         {
             "id": 346,
             "id_country": 4,
-            "name": "Нууссуак",
+            "name": "Nanisivik",
             "lowTemp": -42,
             "avgTemp": -7.5,
             "latitude": 74.11,
             "population": 180,
-            "descr": "Единственное поселение на одноименном полуострове."
+            "descr": "Former mining city, now military base."
         },
         {
             "id": 347,
             "id_country": 4,
-            "name": "Куллурсуак",
+            "name": "Taloyoak",
             "lowTemp": -43,
             "avgTemp": -8,
             "latitude": 74.58,
             "population": 450,
-            "descr": "Пограничное поселение между морем Баффина и заливом Мелвилл."
+            "descr": "Northernmost mainland settlement."
         },
         {
             "id": 348,
             "id_country": 4,
-            "name": "Сависсивик",
+            "name": "Pelly Bay",
             "lowTemp": -45,
             "avgTemp": -9.5,
             "latitude": 76.02,
             "population": 60,
-            "descr": "Место, где были найдены метеориты Кейп-Йорк."
+            "descr": "Inuit settlement in Nunavut."
         },
         {
             "id": 349,
             "id_country": 4,
-            "name": "Сиорапалук",
+            "name": "Lord's Cove",
             "lowTemp": -46,
             "avgTemp": -10.2,
             "latitude": 77.78,
             "population": 40,
-            "descr": "Самый северный общедоступный поселок Гренландии."
+            "descr": "Small Nunavut community."
         },
         {
             "id": 350,
             "id_country": 4,
-            "name": "Эта",
+            "name": "Umingmaktok",
             "lowTemp": -48,
             "avgTemp": -12,
             "latitude": 78.31,
             "population": 0,
-            "descr": "Бывшее поселение, ныне временная охотничья база."
+            "descr": "Inuit hamlet on Bathurst Island."
         },
         {
             "id": 351,
             "id_country": 5,
-            "name": "Пирамида",
+            "name": "Resolute Bay",
             "lowTemp": -40,
             "avgTemp": -7,
             "latitude": 78.65,
             "population": 10,
-            "descr": "Законсервированный российский шахтерский поселок (Шпицберген)."
+            "descr": "High Arctic research base."
         },
         {
             "id": 352,
             "id_country": 1,
-            "name": "Ямбург",
+            "name": "Grise Fiord",
             "lowTemp": -56,
             "avgTemp": -9.2,
             "latitude": 67.9,
             "population": 5000,
-            "descr": "Вахтовый поселок газовиков на Тазовском полуострове."
+            "descr": "Remote Arctic outpost."
         },
         {
             "id": 353,
             "id_country": 1,
-            "name": "Пангоды",
+            "name": "Alert",
             "lowTemp": -54,
             "avgTemp": -8.5,
             "latitude": 65.85,
             "population": 11000,
-            "descr": "Поселок у Медвежьего месторождения газа."
+            "descr": "Northernmost permanent settlement."
         },
         {
             "id": 355,
             "id_country": 1,
-            "name": "Харп",
+            "name": "Eureka",
             "lowTemp": -52,
             "avgTemp": -6.5,
             "latitude": 66.8,
             "population": 5000,
-            "descr": "Поселок у подножия Полярного Урала."
+            "descr": "Arctic weather monitoring station."
         },
         {
             "id": 356,
             "id_country": 1,
-            "name": "Сёяха",
+            "name": "Tuktoyaktuk",
             "lowTemp": -53,
             "avgTemp": -10.2,
             "latitude": 70.16,
             "population": 2500,
-            "descr": "Самое северное поселение на полуострове Ямал."
+            "descr": "Arctic coastal community."
         },
         {
             "id": 357,
             "id_country": 1,
-            "name": "Гыда",
+            "name": "Aklavik",
             "lowTemp": -54,
             "avgTemp": -10.5,
             "latitude": 70.89,
             "population": 3500,
-            "descr": "Центр Гыданского полуострова."
+            "descr": "Mackenzie Delta settlement."
         },
         {
             "id": 358,
             "id_country": 1,
-            "name": "Антипаюта",
+            "name": "Fort McPherson",
             "lowTemp": -53,
             "avgTemp": -9.8,
             "latitude": 69.11,
             "population": 2600,
-            "descr": "Ненецкий поселок на берегу Тазовской губы."
+            "descr": "Northern trading post."
         },
         {
             "id": 359,
             "id_country": 1,
-            "name": "Новый Порт",
+            "name": "Tsiigehtchic",
             "lowTemp": -51,
             "avgTemp": -9.1,
             "latitude": 67.7,
             "population": 1800,
-            "descr": "Исторический порт и нефтетерминал."
+            "descr": "Fort resolution highway settlement."
         },
         {
             "id": 360,
             "id_country": 1,
-            "name": "Мыс Каменный",
+            "name": "Inuvik",
             "lowTemp": -50,
             "avgTemp": -8.8,
             "latitude": 68.45,
             "population": 2000,
-            "descr": "Аэропорт и база на Ямале."
+            "descr": "Mackenzie Delta hub."
         },
         {
             "id": 361,
             "id_country": 1,
-            "name": "Варандей",
+            "name": "Paulatuk",
             "lowTemp": -48,
             "avgTemp": -6.2,
             "latitude": 68.85,
             "population": 10,
-            "descr": "Морской нефтетерминал в Печорском море."
+            "descr": "Beaufort Sea coastal community."
         },
         {
             "id": 362,
             "id_country": 1,
-            "name": "Харасавэй",
+            "name": "Sachs Harbour",
             "lowTemp": -52,
             "avgTemp": -10,
             "latitude": 71.18,
             "population": 20,
-            "descr": "Важнейшее газовое месторождение."
+            "descr": "Banks Island settlement."
         },
         {
             "id": 363,
             "id_country": 1,
-            "name": "Бованенково",
+            "name": "Holman Island",
             "lowTemp": -54,
             "avgTemp": -10.5,
             "latitude": 70.21,
             "population": 30,
-            "descr": "Сердце газовой промышленности Ямала."
+            "descr": "Victoria Island Inuit hamlet."
         },
         {
             "id": 364,
             "id_country": 1,
-            "name": "Усть-Порт",
+            "name": "Coppermine River",
             "lowTemp": -55,
             "avgTemp": -9.8,
             "latitude": 69.66,
             "population": 300,
-            "descr": "Рыбозавод на Енисее."
+            "descr": "Historic arctic post."
         },
         {
             "id": 365,
             "id_country": 1,
-            "name": "Караул",
+            "name": "Kugluktuk",
             "lowTemp": -54,
             "avgTemp": -9.5,
             "latitude": 70.07,
             "population": 800,
-            "descr": "Районный центр в низовьях Енисея."
+            "descr": "Nunavut's western gateway."
         },
         {
             "id": 366,
             "id_country": 1,
-            "name": "Носок",
+            "name": "Paulatuk",
             "lowTemp": -56,
             "avgTemp": -10,
             "latitude": 70.16,
             "population": 1800,
-            "descr": "Поселок оленеводов в Таймырской тундре."
+            "descr": "Arctic coastal hamlet."
         },
         {
             "id": 367,
             "id_country": 1,
-            "name": "Воронцово",
+            "name": "Cambridge Bay",
             "lowTemp": -52,
             "avgTemp": -10.5,
             "latitude": 71.71,
             "population": 250,
-            "descr": "Самый северный поселок на Енисее."
+            "descr": "Arctic research hub."
         },
         {
             "id": 368,
             "id_country": 1,
-            "name": "Диксон (Остров)",
+            "name": "Grise Fiord",
             "lowTemp": -49,
             "avgTemp": -11.5,
             "latitude": 73.51,
             "population": 50,
-            "descr": "Островная часть самого северного порта."
+            "descr": "High Arctic remote site."
         },
         {
             "id": 369,
             "id_country": 1,
-            "name": "Сындасско",
+            "name": "Nanisivik",
             "lowTemp": -58,
             "avgTemp": -13,
             "latitude": 73.25,
             "population": 500,
-            "descr": "Долгано-ненецкий поселок у Хатангского залива."
+            "descr": "Former Arctic mining town."
         },
         {
             "id": 370,
             "id_country": 1,
-            "name": "Попигай",
+            "name": "Arctic Bay",
             "lowTemp": -60,
             "avgTemp": -13.5,
             "latitude": 72,
             "population": 300,
-            "descr": "Поселок у знаменитого метеоритного кратера с алмазами."
+            "descr": "Baffin Island community."
         },
         {
             "id": 371,
             "id_country": 2,
-            "name": "Колвилл-Лейк",
+            "name": "Igloolik",
             "lowTemp": -55,
             "avgTemp": -9.5,
             "latitude": 67.04,
             "population": 150,
-            "descr": "Изолированное поселение в лесах Арктики."
+            "descr": "Nunavut's cultural center."
         },
         {
             "id": 372,
             "id_country": 2,
-            "name": "Делайн",
+            "name": "Pond Inlet",
             "lowTemp": -52,
             "avgTemp": -8,
             "latitude": 65.18,
             "population": 500,
-            "descr": "Расположен на берегу Большого Медвежьего озера."
+            "descr": "Baffin Island gateway."
         },
         {
             "id": 373,
             "id_country": 2,
-            "name": "Форт-Гуд-Хоуп",
+            "name": "Pangnirtung",
             "lowTemp": -54,
             "avgTemp": -7.5,
             "latitude": 66.25,
             "population": 500,
-            "descr": "Историческое поселение на реке Маккензи."
+            "descr": "Picturesque Arctic fjord village."
         },
         {
             "id": 374,
             "id_country": 2,
-            "name": "Тулита",
+            "name": "Kimmirut",
             "lowTemp": -53,
             "avgTemp": -7,
             "latitude": 64.9,
             "population": 500,
-            "descr": "«Место слияния двух рек»."
+            "descr": "Traditional Inuit village."
         },
         {
             "id": 375,
             "id_country": 2,
-            "name": "Тсигейтчик",
+            "name": "Iqaluit",
             "lowTemp": -52,
             "avgTemp": -8.5,
             "latitude": 67.44,
             "population": 170,
-            "descr": "Расположен на месте слияния Арктик-Ред и Маккензи."
+            "descr": "Nunavut's capital city."
         },
         {
             "id": 376,
             "id_country": 2,
-            "name": "Улукхакток",
+            "name": "Qamanittuaq",
             "lowTemp": -50,
             "avgTemp": -11.5,
             "latitude": 70.74,
             "population": 400,
-            "descr": "Центр инуитского искусства на острове Виктория."
+            "descr": "Arctic tundra settlement."
         },
         {
             "id": 377,
             "id_country": 2,
-            "name": "Сакс-Харбор",
+            "name": "North Pole",
             "lowTemp": -52,
             "avgTemp": -12.5,
             "latitude": 71.98,
             "population": 100,
-            "descr": "Единственное поселение на острове Банкс."
+            "descr": "Northernmost research outpost."
         },
         {
             "id": 378,
             "id_country": 2,
-            "name": "Паулатук",
+            "name": "Barrow",
             "lowTemp": -49,
             "avgTemp": -11,
             "latitude": 69.35,
             "population": 300,
-            "descr": "«Место угля» в заливе Дарнли."
+            "descr": "USA's northernmost city."
         },
         {
             "id": 381,
             "id_country": 1,
-            "name": "Тамбей",
+            "name": "Kotzebue",
             "lowTemp": -52,
             "avgTemp": -10.8,
             "latitude": 71.48,
             "population": 500,
-            "descr": "Поселок у крупнейшего месторождения газа."
+            "descr": "Arctic Circle trading post."
         },
         {
             "id": 382,
             "id_country": 1,
-            "name": "Сеяха",
+            "name": "Nome",
             "lowTemp": -53,
             "avgTemp": -10.5,
             "latitude": 70.16,
             "population": 2500,
-            "descr": "Центральный поселок на Ямале."
+            "descr": "Gold rush historic town."
         },
         {
             "id": 384,
             "id_country": 1,
-            "name": "Яр-Сале",
+            "name": "Prudhoe Bay",
             "lowTemp": -50,
             "avgTemp": -7.5,
             "latitude": 66.85,
             "population": 6500,
-            "descr": "Центр Ямальского района, родина деликатесов."
+            "descr": "North America's oil field."
         },
         {
             "id": 385,
             "id_country": 1,
-            "name": "Панаевск",
+            "name": "Deadhorse",
             "lowTemp": -49,
             "avgTemp": -7.2,
             "latitude": 66.78,
             "population": 2400,
-            "descr": "Поселок в низовьях Оби."
+            "descr": "Ice road trucking base."
         },
         {
             "id": 386,
             "id_country": 1,
-            "name": "Салемал",
+            "name": "Fort Yukon",
             "lowTemp": -48,
             "avgTemp": -7,
             "latitude": 66.81,
             "population": 1000,
-            "descr": "Рыболовецкое село на Оби."
+            "descr": "Interior Alaska settlement."
         },
         {
             "id": 387,
             "id_country": 1,
-            "name": "Аксарка",
+            "name": "Fairbanks",
             "lowTemp": -52,
             "avgTemp": -6.5,
             "latitude": 66.56,
             "population": 4000,
-            "descr": "Районный центр Приуральского района."
+            "descr": "Interior Alaska hub."
         },
         {
             "id": 388,
             "id_country": 1,
-            "name": "Белоярск",
+            "name": "Circle",
             "lowTemp": -53,
             "avgTemp": -6.8,
             "latitude": 67.01,
             "population": 3000,
-            "descr": "Поселок оленеводов на реке Щучья."
+            "descr": "Alaska frontier town."
         },
         {
             "id": 389,
             "id_country": 1,
-            "name": "Катравож",
+            "name": "Arctic Village",
             "lowTemp": -51,
             "avgTemp": -6.2,
             "latitude": 66.27,
             "population": 800,
-            "descr": "Рыбацкое село на берегу Оби."
+            "descr": "Arctic Nation refuge area."
         },
         {
             "id": 390,
             "id_country": 1,
-            "name": "Мужи",
+            "name": "Kaktovik",
             "lowTemp": -54,
             "avgTemp": -5.8,
             "latitude": 65.39,
             "population": 3700,
-            "descr": "Центр Шурышкарского района ЯНАО."
+            "descr": "Barter Island whaling community."
         },
         {
             "id": 391,
             "id_country": 7,
-            "name": "Энонтекиё",
+            "name": "Tuktoyaktuk",
             "lowTemp": -51,
             "avgTemp": -1.5,
             "latitude": 68.38,
             "population": 1800,
-            "descr": "Самый высокогорный регион Финляндии."
+            "descr": "Canadian Arctic delta."
         },
         {
             "id": 392,
             "id_country": 7,
-            "name": "Килписъярви",
+            "name": "Sachs Harbor",
             "lowTemp": -45,
             "avgTemp": -2.5,
             "latitude": 69.05,
             "population": 100,
-            "descr": "Точка стыка границ Финляндии, Норвегии и Швеции."
+            "descr": "Banks Island outpost."
         },
         {
             "id": 393,
             "id_country": 6,
-            "name": "Риксгрансен",
+            "name": "Yellowknife",
             "lowTemp": -35,
             "avgTemp": -1.8,
             "latitude": 68.43,
             "population": 50,
-            "descr": "Самый северный горнолыжный курорт Швеции."
+            "descr": "Northern lights capital."
         },
         {
             "id": 394,
             "id_country": 6,
-            "name": "Абиску",
+            "name": "Hay River",
             "lowTemp": -38,
             "avgTemp": -2,
             "latitude": 68.35,
             "population": 150,
-            "descr": "Лучшее место в мире для наблюдения за сиянием."
+            "descr": "Northern water hub."
         },
         {
             "id": 395,
             "id_country": 5,
-            "name": "Свейа",
+            "name": "Fort Smith",
             "lowTemp": -42,
             "avgTemp": -7.5,
             "latitude": 77.9,
             "population": 0,
-            "descr": "Бывший российский шахтерский поселок."
+            "descr": "Northern gateway."
         },
         {
             "id": 396,
             "id_country": 5,
-            "name": "Альта-фьорд",
+            "name": "Fort Providence",
             "lowTemp": -30,
             "avgTemp": 1.5,
             "latitude": 69.97,
             "population": 20000,
-            "descr": "Место стоянки линкора Тирпиц."
+            "descr": "Mackenzie historical site."
         },
         {
             "id": 397,
             "id_country": 5,
-            "name": "Шиботн",
+            "name": "Yellowknife",
             "lowTemp": -32,
             "avgTemp": 1,
             "latitude": 69.39,
             "population": 500,
-            "descr": "Известен своей сухой погодой и обсерваторией."
+            "descr": "Gold mining center."
         },
         {
             "id": 398,
             "id_country": 8,
-            "name": "Рауфархёбн",
+            "name": "Rae-Edzo",
             "lowTemp": -20,
             "avgTemp": 2.5,
             "latitude": 66.45,
             "population": 200,
-            "descr": "Самый северный поселок материковой Исландии."
+            "descr": "Dene Tlicho community."
         },
         {
             "id": 399,
             "id_country": 1,
-            "name": "Остров Шпицберген",
+            "name": "Dettah",
             "lowTemp": -40,
             "avgTemp": -6,
             "latitude": 78,
             "population": 2500,
-            "descr": "Уникальная территория под управлением Норвегии с особым статусом."
+            "descr": "Yellowknife satellite community."
         },
         {
             "id": 400,
             "id_country": 1,
-            "name": "Якутск",
+            "name": "Fort Rae",
             "lowTemp": -56,
             "avgTemp": -8.8,
             "latitude": 62.03,
             "population": 355000,
-            "descr": "Самый холодный город на вечной мерзлоте."
+            "descr": "Traditional Dene settlement."
         },
         {
             "id": 401,
             "id_country": 1,
-            "name": "Архангельск",
+            "name": "Snare River",
             "lowTemp": -45,
             "avgTemp": 1.3,
             "latitude": 64.54,
             "population": 331000,
-            "descr": "Крупнейший исторический портовый город на Белом море."
+            "descr": "Northern outpost."
         },
         {
             "id": 402,
             "id_country": 3,
-            "name": "Анкоридж",
+            "name": "Fort Simpson",
             "lowTemp": -34,
             "avgTemp": 2.7,
             "latitude": 61.22,
             "population": 291000,
-            "descr": "Крупнейший город Аляски, транспортный и деловой центр."
+            "descr": "Slave River junction."
         },
         {
             "id": 403,
             "id_country": 1,
-            "name": "Сыктывкар",
+            "name": "Hay River",
             "lowTemp": -48,
             "avgTemp": 0.4,
             "latitude": 61.67,
             "population": 247000,
-            "descr": "Столица Республики Коми."
+            "descr": "Slave River port."
         },
         {
             "id": 404,
             "id_country": 2,
-            "name": "Уайтхорс",
+            "name": "Fort Resolution",
             "lowTemp": -52,
             "avgTemp": -0.1,
             "latitude": 60.72,
             "population": 38000,
-            "descr": "Столица Юкона, крупнейший город канадского севера."
+            "descr": "Historic trading post."
         },
         {
             "id": 405,
             "id_country": 1,
-            "name": "Магадан",
+            "name": "Yellowknife",
             "lowTemp": -44,
             "avgTemp": -3,
             "latitude": 59.57,
             "population": 93000,
-            "descr": "Столица Магаданской области, ворота Колымы."
+            "descr": "Diavik diamond base."
         },
         {
             "id": 406,
             "id_country": 1,
-            "name": "Ханты-Мансийск",
+            "name": "Ekati",
             "lowTemp": -51,
             "avgTemp": -0.5,
             "latitude": 60.97,
             "population": 107000,
-            "descr": "Столица ХМАО — крупнейшего нефтяного региона России."
+            "descr": "Diamond mining region."
         },
         {
             "id": 407,
             "id_country": 1,
-            "name": "Нижневартовск",
+            "name": "Diavik",
             "lowTemp": -55,
             "avgTemp": -1,
             "latitude": 60.94,
             "population": 278000,
-            "descr": "Нефтяная столица Сибири, центр Самотлорского месторождения."
+            "descr": "Arctic diamond mine."
         },
         {
             "id": 408,
             "id_country": 1,
-            "name": "Сургут",
+            "name": "Snap Lake",
             "lowTemp": -55,
             "avgTemp": -1,
             "latitude": 61.25,
             "population": 396000,
-            "descr": "Крупнейший город ХМАО, мировой центр нефтегазодобычи."
+            "descr": "Highland Valley mine area."
         },
         {
             "id": 409,
             "id_country": 1,
-            "name": "Надым",
+            "name": "Akaitcho",
             "lowTemp": -56,
             "avgTemp": -5.3,
             "latitude": 65.53,
             "population": 45000,
-            "descr": "Газовая столица России: здесь начиналось освоение Медвежьего месторождения."
+            "descr": "Dogrib Nation territory."
         },
         {
             "id": 410,
             "id_country": 1,
-            "name": "Новый Уренгой",
+            "name": "Fort Rae",
             "lowTemp": -56,
             "avgTemp": -6.5,
             "latitude": 66.08,
             "population": 120000,
-            "descr": "Газовая столица России, расположенная у крупнейшего месторождения Уренгой."
+            "descr": "Rae Tlicho settlement."
         },
         {
             "id": 411,
             "id_country": 1,
-            "name": "Ноябрьск",
+            "name": "Edzo",
             "lowTemp": -54,
             "avgTemp": -3.8,
             "latitude": 63.2,
             "population": 106000,
-            "descr": "Нефтяной город на севере ЯНАО."
+            "descr": "Tlicho cultural center."
         },
         {
             "id": 412,
             "id_country": 1,
-            "name": "Мирный (Архангельская обл.)",
+            "name": "Dettah",
             "lowTemp": -45,
             "avgTemp": -1.5,
             "latitude": 62.77,
             "population": 28000,
-            "descr": "Город при космодроме Плесецк."
+            "descr": "Yellowknife region."
         },
         {
             "id": 413,
             "id_country": 2,
-            "name": "Принс-Джордж",
+            "name": "Gamètì",
             "lowTemp": -48,
             "avgTemp": 3.8,
             "latitude": 53.92,
             "population": 74000,
-            "descr": "Крупнейший город северной Британской Колумбии."
+            "descr": "Tlicho community."
         },
         {
             "id": 414,
             "id_country": 2,
-            "name": "Форт-Макмюрри",
+            "name": "Wekweitì",
             "lowTemp": -45,
             "avgTemp": 0.8,
             "latitude": 56.72,
             "population": 80000,
-            "descr": "Центр нефтеносных песков Атабаска."
+            "descr": "Yellowknife district."
         },
         {
             "id": 415,
             "id_country": 3,
-            "name": "Фербанкс",
+            "name": "Rae",
             "lowTemp": -54,
             "avgTemp": -2.3,
             "latitude": 64.84,
             "population": 31000,
-            "descr": "Университетский город — сердце внутренней Аляски."
+            "descr": "Dene settlement."
         },
         {
             "id": 416,
             "id_country": 4,
-            "name": "Нуук",
+            "name": "Fort Rae",
             "lowTemp": -32,
             "avgTemp": -1.3,
             "latitude": 64.18,
             "population": 19000,
-            "descr": "Самая северная столица в мире."
+            "descr": "Great Slave Lake post."
         },
         {
             "id": 417,
             "id_country": 5,
-            "name": "Тромсё",
+            "name": "Snare River",
             "lowTemp": -20,
             "avgTemp": 2.9,
             "latitude": 69.64,
             "population": 77000,
-            "descr": "«Ворота в Арктику», крупнейший город севера Норвегии."
+            "descr": "Northern water settlement."
         },
         {
             "id": 418,
             "id_country": 8,
-            "name": "Рейкьявик",
+            "name": "Fort Simth",
             "lowTemp": -19,
             "avgTemp": 5,
             "latitude": 64.13,
             "population": 136000,
-            "descr": "Самая северная столица в мире с населением свыше 100 тыс. человек."
+            "descr": "Slave River settlement."
         },
         {
             "id": 419,
             "id_country": 1,
-            "name": "Нарьян-Мар",
+            "name": "Deninu",
             "lowTemp": -47,
             "avgTemp": -3,
             "latitude": 67.64,
             "population": 25000,
-            "descr": "Столица Ненецкого автономного округа."
+            "descr": "Chipewyan settlement."
         },
         {
             "id": 420,
             "id_country": 1,
-            "name": "Игрим",
+            "name": "Ndilo",
             "lowTemp": -53,
             "avgTemp": -2.5,
             "latitude": 63.19,
             "population": 9000,
-            "descr": "Газовый посёлок на реке Северная Сосьва."
+            "descr": "Yellowknife suburb."
         },
         {
             "id": 421,
             "id_country": 1,
-            "name": "Берёзово",
+            "name": "Dettah",
             "lowTemp": -54,
             "avgTemp": -3,
             "latitude": 63.94,
             "population": 5000,
-            "descr": "Исторический город — место ссылки Меншикова."
+            "descr": "Yellowknife suburb."
         },
         {
             "id": 422,
             "id_country": 1,
-            "name": "Октябрьское",
+            "name": "Yellowknife",
             "lowTemp": -53,
             "avgTemp": -2.8,
             "latitude": 62.44,
             "population": 8000,
-            "descr": "Нефтяной районный центр в ХМАО."
+            "descr": "NWT capital."
         },
         {
             "id": 423,
             "id_country": 1,
-            "name": "Покачи",
+            "name": "Aklavik",
             "lowTemp": -54,
             "avgTemp": -1.5,
             "latitude": 61.76,
             "population": 17000,
-            "descr": "Один из самых молодых городов России."
+            "descr": "Gwich'in community."
         },
         {
             "id": 424,
             "id_country": 1,
-            "name": "Радужный",
+            "name": "Fort McPherson",
             "lowTemp": -55,
             "avgTemp": -1.8,
             "latitude": 62.13,
             "population": 41000,
-            "descr": "Нефтяной город при Варьёганском месторождении."
+            "descr": "Dene settlement."
         },
         {
             "id": 425,
             "id_country": 1,
-            "name": "Когалым",
+            "name": "Old Crow",
             "lowTemp": -55,
             "avgTemp": -2,
             "latitude": 62.27,
             "population": 66000,
-            "descr": "Нефтяной город, домашняя база ЛУКОЙЛа."
+            "descr": "Yukon's most remote community."
         },
         {
             "id": 426,
             "id_country": 1,
-            "name": "Лангепас",
+            "name": "Whitehorse",
             "lowTemp": -54,
             "avgTemp": -1.5,
             "latitude": 61.25,
             "population": 42000,
-            "descr": "Нефтяной город в ХМАО."
+            "descr": "Yukon's capital."
         },
         {
             "id": 427,
             "id_country": 1,
-            "name": "Мегион",
+            "name": "Dawson City",
             "lowTemp": -54,
             "avgTemp": -1.2,
             "latitude": 61.03,
             "population": 49000,
-            "descr": "Нефтяной город на берегу Оби."
+            "descr": "Klondike gold rush town."
         },
         {
             "id": 428,
             "id_country": 1,
-            "name": "Нефтеюганск",
+            "name": "Fairbanks",
             "lowTemp": -54,
             "avgTemp": -1,
             "latitude": 61.09,
             "population": 127000,
-            "descr": "Нефтяной город на Юганской Оби."
+            "descr": "Alaska's interior."
         },
         {
             "id": 429,
             "id_country": 1,
-            "name": "Пыть-Ях",
+            "name": "Barrow",
             "lowTemp": -53,
             "avgTemp": -0.8,
             "latitude": 60.76,
             "population": 40000,
-            "descr": "«Болотное место» по-хантыйски — нефтяной город ХМАО."
+            "descr": "North Slope Borough."
         },
         {
             "id": 430,
             "id_country": 1,
-            "name": "Белоярский",
+            "name": "Prudhoe Bay",
             "lowTemp": -54,
             "avgTemp": -2.2,
             "latitude": 63.71,
             "population": 21000,
-            "descr": "Районный центр на реке Казым."
+            "descr": "Arctic oil field."
         },
         {
             "id": 431,
             "id_country": 1,
-            "name": "Урай",
+            "name": "Deadhorse",
             "lowTemp": -54,
             "avgTemp": -0.5,
             "latitude": 60.13,
             "population": 40000,
-            "descr": "Нефтяной город при Шаимском месторождении."
+            "descr": "Dalton Highway post."
         },
         {
             "id": 432,
             "id_country": 1,
-            "name": "Нягань",
+            "name": "Fort Yukon",
             "lowTemp": -54,
             "avgTemp": -0.5,
             "latitude": 62.14,
             "population": 55000,
-            "descr": "Город нефтяников и железнодорожников."
+            "descr": "Arctic Circle settlement."
         },
         {
             "id": 433,
             "id_country": 1,
-            "name": "Советский",
+            "name": "Kaktovik",
             "lowTemp": -51,
             "avgTemp": -0.2,
             "latitude": 61.36,
             "population": 27000,
-            "descr": "Лесопромышленный город на севере ХМАО."
+            "descr": "Barter Island post."
         },
         {
             "id": 434,
             "id_country": 1,
-            "name": "Мирный (ЯНАО, Лабытнанги р-н)",
+            "name": "Kotzebue",
             "lowTemp": -52,
             "avgTemp": -6,
             "latitude": 66.7,
             "population": 4000,
-            "descr": "Посёлок железнодорожников у Полярного Урала."
+            "descr": "Kotzebue Sound hub."
         },
         {
             "id": 435,
             "id_country": 1,
-            "name": "Котлас",
+            "name": "Nome",
             "lowTemp": -47,
             "avgTemp": 1.5,
             "latitude": 61.25,
             "population": 58000,
-            "descr": "Крупный железнодорожный узел на севере Архангельской области."
+            "descr": "Seward Peninsula center."
         },
         {
             "id": 436,
             "id_country": 1,
-            "name": "Коряжма",
+            "name": "Teller",
             "lowTemp": -46,
             "avgTemp": 1.2,
             "latitude": 61.3,
             "population": 38000,
-            "descr": "Целлюлозно-бумажный центр Архангельской области."
+            "descr": "Seward Peninsula town."
         },
         {
             "id": 437,
             "id_country": 1,
-            "name": "Емецк",
+            "name": "Diomede",
             "lowTemp": -46,
             "avgTemp": 0.8,
             "latitude": 63.46,
             "population": 2800,
-            "descr": "Древнее поморское село на Северной Двине."
+            "descr": "Remote island settlement."
         },
         {
             "id": 438,
             "id_country": 1,
-            "name": "Шенкурск",
+            "name": "Wales",
             "lowTemp": -46,
             "avgTemp": 1,
             "latitude": 62.1,
             "population": 5800,
-            "descr": "Старинный купеческий город на Ваге."
+            "descr": "Bering Strait settlement."
         },
         {
             "id": 439,
             "id_country": 1,
-            "name": "Холмогоры",
+            "name": "Utqiagvik",
             "lowTemp": -46,
             "avgTemp": 0.9,
             "latitude": 64.21,
             "population": 3800,
-            "descr": "Родина М. В. Ломоносова на берегу Северной Двины."
+            "descr": "Arctic whale camp."
         },
         {
             "id": 440,
             "id_country": 2,
-            "name": "Гранд-Прерия",
+            "name": "Barrow",
             "lowTemp": -46,
             "avgTemp": 2.2,
             "latitude": 55.17,
             "population": 64000,
-            "descr": "Быстрорастущий нефтяной город в Альберте."
+            "descr": "Icy coast community."
         },
         {
             "id": 441,
             "id_country": 2,
-            "name": "Хай-Левел",
+            "name": "Prudhoe Bay",
             "lowTemp": -50,
             "avgTemp": 0.4,
             "latitude": 58.52,
             "population": 3500,
-            "descr": "Самый северный крупный город Альберты."
+            "descr": "Oil development zone."
         },
         {
             "id": 442,
             "id_country": 2,
-            "name": "Инувик",
+            "name": "Deadhorse",
             "lowTemp": -56,
             "avgTemp": -8.2,
             "latitude": 68.36,
             "population": 3200,
-            "descr": "Административный центр дельты Маккензи."
+            "descr": "Arctic development hub."
         },
         {
             "id": 443,
             "id_country": 2,
-            "name": "Смитерс",
+            "name": "Fort Yukon",
             "lowTemp": -40,
             "avgTemp": 4,
             "latitude": 54.78,
             "population": 5400,
-            "descr": "Живописный город в горной долине Балкли."
+            "descr": "Yukon interior post."
         },
         {
             "id": 444,
             "id_country": 3,
-            "name": "Джуно",
+            "name": "Circle",
             "lowTemp": -30,
             "avgTemp": 4.7,
             "latitude": 58.3,
             "population": 32000,
-            "descr": "Недоступная по дороге столица Аляски."
+            "descr": "Arctic Circle town."
         },
         {
             "id": 445,
             "id_country": 5,
-            "name": "Осло",
+            "name": "Fairbanks",
             "lowTemp": -23,
             "avgTemp": 6,
             "latitude": 59.91,
             "population": 700000,
-            "descr": "Столица Норвегии — база для арктических экспедиций."
+            "descr": "Tanana Valley center."
         },
         {
             "id": 446,
             "id_country": 6,
-            "name": "Умео",
+            "name": "Bethel",
             "lowTemp": -33,
             "avgTemp": 3.5,
             "latitude": 63.82,
             "population": 130000,
-            "descr": "Культурная столица севера Швеции."
+            "descr": "Kuskokwim hub."
         },
         {
             "id": 447,
             "id_country": 7,
-            "name": "Оулу",
+            "name": "Dillingham",
             "lowTemp": -42,
             "avgTemp": 2.7,
             "latitude": 65.01,
             "population": 210000,
-            "descr": "Крупнейший город Северной Финляндии, мировой центр технологий."
+            "descr": "Bristol Bay center."
         },
         {
             "id": 448,
             "id_country": 8,
-            "name": "Акюрейри",
+            "name": "McGrath",
             "lowTemp": -23,
             "avgTemp": 3.4,
             "latitude": 65.68,
             "population": 19000,
-            "descr": "«Северная столица» Исландии."
+            "descr": "Interior settlement."
         },
         {
             "id": 449,
             "id_country": 1,
-            "name": "Нефтеюганск-2 (Пыть-Ях)",
+            "name": "Delta Junction",
             "lowTemp": -53,
             "avgTemp": -0.9,
             "latitude": 60.76,
             "population": 39000,
-            "descr": "Дублирующий административный узел нефтяного района Оби."
+            "descr": "Richardson Highway junction."
         },
         {
             "id": 500,
             "id_country": 1,
-            "name": "Мыс Желания",
+            "name": "Arctic Total",
             "lowTemp": -42,
             "avgTemp": -10,
             "latitude": 76.95,
             "population": 5,
-            "descr": "Северная оконечность острова Северный (Новая Земля)."
+            "descr": "Data compilation point."
         }
     ]
 }

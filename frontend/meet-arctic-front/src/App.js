@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const LoadCities = async () => {
 
-      const response = await fetch("/public/data.json");
+      const response = await fetch("/public/data.en.json");
       const rdata = await response.json();
 
       setCountries(rdata.countries);
