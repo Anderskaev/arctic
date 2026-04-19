@@ -3053,6 +3053,506 @@
         {
             "id": 400,
             "id_country": 1,
+            "name": "Якутск",
+            "lowTemp": -56,
+            "avgTemp": -8.8,
+            "latitude": 62.03,
+            "population": 355000,
+            "descr": "Самый холодный город на вечной мерзлоте."
+        },
+        {
+            "id": 401,
+            "id_country": 1,
+            "name": "Архангельск",
+            "lowTemp": -45,
+            "avgTemp": 1.3,
+            "latitude": 64.54,
+            "population": 331000,
+            "descr": "Крупнейший исторический портовый город на Белом море."
+        },
+        {
+            "id": 402,
+            "id_country": 3,
+            "name": "Анкоридж",
+            "lowTemp": -34,
+            "avgTemp": 2.7,
+            "latitude": 61.22,
+            "population": 291000,
+            "descr": "Крупнейший город Аляски, транспортный и деловой центр."
+        },
+        {
+            "id": 403,
+            "id_country": 1,
+            "name": "Сыктывкар",
+            "lowTemp": -48,
+            "avgTemp": 0.4,
+            "latitude": 61.67,
+            "population": 247000,
+            "descr": "Столица Республики Коми."
+        },
+        {
+            "id": 404,
+            "id_country": 2,
+            "name": "Уайтхорс",
+            "lowTemp": -52,
+            "avgTemp": -0.1,
+            "latitude": 60.72,
+            "population": 38000,
+            "descr": "Столица Юкона, крупнейший город канадского севера."
+        },
+        {
+            "id": 405,
+            "id_country": 1,
+            "name": "Магадан",
+            "lowTemp": -44,
+            "avgTemp": -3,
+            "latitude": 59.57,
+            "population": 93000,
+            "descr": "Столица Магаданской области, ворота Колымы."
+        },
+        {
+            "id": 406,
+            "id_country": 1,
+            "name": "Ханты-Мансийск",
+            "lowTemp": -51,
+            "avgTemp": -0.5,
+            "latitude": 60.97,
+            "population": 107000,
+            "descr": "Столица ХМАО — крупнейшего нефтяного региона России."
+        },
+        {
+            "id": 407,
+            "id_country": 1,
+            "name": "Нижневартовск",
+            "lowTemp": -55,
+            "avgTemp": -1,
+            "latitude": 60.94,
+            "population": 278000,
+            "descr": "Нефтяная столица Сибири, центр Самотлорского месторождения."
+        },
+        {
+            "id": 408,
+            "id_country": 1,
+            "name": "Сургут",
+            "lowTemp": -55,
+            "avgTemp": -1,
+            "latitude": 61.25,
+            "population": 396000,
+            "descr": "Крупнейший город ХМАО, мировой центр нефтегазодобычи."
+        },
+        {
+            "id": 409,
+            "id_country": 1,
+            "name": "Надым",
+            "lowTemp": -56,
+            "avgTemp": -5.3,
+            "latitude": 65.53,
+            "population": 45000,
+            "descr": "Газовая столица России: здесь начиналось освоение Медвежьего месторождения."
+        },
+        {
+            "id": 410,
+            "id_country": 1,
+            "name": "Новый Уренгой",
+            "lowTemp": -56,
+            "avgTemp": -6.5,
+            "latitude": 66.08,
+            "population": 120000,
+            "descr": "Газовая столица России, расположенная у крупнейшего месторождения Уренгой."
+        },
+        {
+            "id": 411,
+            "id_country": 1,
+            "name": "Ноябрьск",
+            "lowTemp": -54,
+            "avgTemp": -3.8,
+            "latitude": 63.2,
+            "population": 106000,
+            "descr": "Нефтяной город на севере ЯНАО."
+        },
+        {
+            "id": 412,
+            "id_country": 1,
+            "name": "Мирный (Архангельская обл.)",
+            "lowTemp": -45,
+            "avgTemp": -1.5,
+            "latitude": 62.77,
+            "population": 28000,
+            "descr": "Город при космодроме Плесецк."
+        },
+        {
+            "id": 413,
+            "id_country": 2,
+            "name": "Принс-Джордж",
+            "lowTemp": -48,
+            "avgTemp": 3.8,
+            "latitude": 53.92,
+            "population": 74000,
+            "descr": "Крупнейший город северной Британской Колумбии."
+        },
+        {
+            "id": 414,
+            "id_country": 2,
+            "name": "Форт-Макмюрри",
+            "lowTemp": -45,
+            "avgTemp": 0.8,
+            "latitude": 56.72,
+            "population": 80000,
+            "descr": "Центр нефтеносных песков Атабаска."
+        },
+        {
+            "id": 415,
+            "id_country": 3,
+            "name": "Фербанкс",
+            "lowTemp": -54,
+            "avgTemp": -2.3,
+            "latitude": 64.84,
+            "population": 31000,
+            "descr": "Университетский город — сердце внутренней Аляски."
+        },
+        {
+            "id": 416,
+            "id_country": 4,
+            "name": "Нуук",
+            "lowTemp": -32,
+            "avgTemp": -1.3,
+            "latitude": 64.18,
+            "population": 19000,
+            "descr": "Самая северная столица в мире."
+        },
+        {
+            "id": 417,
+            "id_country": 5,
+            "name": "Тромсё",
+            "lowTemp": -20,
+            "avgTemp": 2.9,
+            "latitude": 69.64,
+            "population": 77000,
+            "descr": "«Ворота в Арктику», крупнейший город севера Норвегии."
+        },
+        {
+            "id": 418,
+            "id_country": 8,
+            "name": "Рейкьявик",
+            "lowTemp": -19,
+            "avgTemp": 5,
+            "latitude": 64.13,
+            "population": 136000,
+            "descr": "Самая северная столица в мире с населением свыше 100 тыс. человек."
+        },
+        {
+            "id": 419,
+            "id_country": 1,
+            "name": "Нарьян-Мар",
+            "lowTemp": -47,
+            "avgTemp": -3,
+            "latitude": 67.64,
+            "population": 25000,
+            "descr": "Столица Ненецкого автономного округа."
+        },
+        {
+            "id": 420,
+            "id_country": 1,
+            "name": "Игрим",
+            "lowTemp": -53,
+            "avgTemp": -2.5,
+            "latitude": 63.19,
+            "population": 9000,
+            "descr": "Газовый посёлок на реке Северная Сосьва."
+        },
+        {
+            "id": 421,
+            "id_country": 1,
+            "name": "Берёзово",
+            "lowTemp": -54,
+            "avgTemp": -3,
+            "latitude": 63.94,
+            "population": 5000,
+            "descr": "Исторический город — место ссылки Меншикова."
+        },
+        {
+            "id": 422,
+            "id_country": 1,
+            "name": "Октябрьское",
+            "lowTemp": -53,
+            "avgTemp": -2.8,
+            "latitude": 62.44,
+            "population": 8000,
+            "descr": "Нефтяной районный центр в ХМАО."
+        },
+        {
+            "id": 423,
+            "id_country": 1,
+            "name": "Покачи",
+            "lowTemp": -54,
+            "avgTemp": -1.5,
+            "latitude": 61.76,
+            "population": 17000,
+            "descr": "Один из самых молодых городов России."
+        },
+        {
+            "id": 424,
+            "id_country": 1,
+            "name": "Радужный",
+            "lowTemp": -55,
+            "avgTemp": -1.8,
+            "latitude": 62.13,
+            "population": 41000,
+            "descr": "Нефтяной город при Варьёганском месторождении."
+        },
+        {
+            "id": 425,
+            "id_country": 1,
+            "name": "Когалым",
+            "lowTemp": -55,
+            "avgTemp": -2,
+            "latitude": 62.27,
+            "population": 66000,
+            "descr": "Нефтяной город, домашняя база ЛУКОЙЛа."
+        },
+        {
+            "id": 426,
+            "id_country": 1,
+            "name": "Лангепас",
+            "lowTemp": -54,
+            "avgTemp": -1.5,
+            "latitude": 61.25,
+            "population": 42000,
+            "descr": "Нефтяной город в ХМАО."
+        },
+        {
+            "id": 427,
+            "id_country": 1,
+            "name": "Мегион",
+            "lowTemp": -54,
+            "avgTemp": -1.2,
+            "latitude": 61.03,
+            "population": 49000,
+            "descr": "Нефтяной город на берегу Оби."
+        },
+        {
+            "id": 428,
+            "id_country": 1,
+            "name": "Нефтеюганск",
+            "lowTemp": -54,
+            "avgTemp": -1,
+            "latitude": 61.09,
+            "population": 127000,
+            "descr": "Нефтяной город на Юганской Оби."
+        },
+        {
+            "id": 429,
+            "id_country": 1,
+            "name": "Пыть-Ях",
+            "lowTemp": -53,
+            "avgTemp": -0.8,
+            "latitude": 60.76,
+            "population": 40000,
+            "descr": "«Болотное место» по-хантыйски — нефтяной город ХМАО."
+        },
+        {
+            "id": 430,
+            "id_country": 1,
+            "name": "Белоярский",
+            "lowTemp": -54,
+            "avgTemp": -2.2,
+            "latitude": 63.71,
+            "population": 21000,
+            "descr": "Районный центр на реке Казым."
+        },
+        {
+            "id": 431,
+            "id_country": 1,
+            "name": "Урай",
+            "lowTemp": -54,
+            "avgTemp": -0.5,
+            "latitude": 60.13,
+            "population": 40000,
+            "descr": "Нефтяной город при Шаимском месторождении."
+        },
+        {
+            "id": 432,
+            "id_country": 1,
+            "name": "Нягань",
+            "lowTemp": -54,
+            "avgTemp": -0.5,
+            "latitude": 62.14,
+            "population": 55000,
+            "descr": "Город нефтяников и железнодорожников."
+        },
+        {
+            "id": 433,
+            "id_country": 1,
+            "name": "Советский",
+            "lowTemp": -51,
+            "avgTemp": -0.2,
+            "latitude": 61.36,
+            "population": 27000,
+            "descr": "Лесопромышленный город на севере ХМАО."
+        },
+        {
+            "id": 434,
+            "id_country": 1,
+            "name": "Мирный (ЯНАО, Лабытнанги р-н)",
+            "lowTemp": -52,
+            "avgTemp": -6,
+            "latitude": 66.7,
+            "population": 4000,
+            "descr": "Посёлок железнодорожников у Полярного Урала."
+        },
+        {
+            "id": 435,
+            "id_country": 1,
+            "name": "Котлас",
+            "lowTemp": -47,
+            "avgTemp": 1.5,
+            "latitude": 61.25,
+            "population": 58000,
+            "descr": "Крупный железнодорожный узел на севере Архангельской области."
+        },
+        {
+            "id": 436,
+            "id_country": 1,
+            "name": "Коряжма",
+            "lowTemp": -46,
+            "avgTemp": 1.2,
+            "latitude": 61.3,
+            "population": 38000,
+            "descr": "Целлюлозно-бумажный центр Архангельской области."
+        },
+        {
+            "id": 437,
+            "id_country": 1,
+            "name": "Емецк",
+            "lowTemp": -46,
+            "avgTemp": 0.8,
+            "latitude": 63.46,
+            "population": 2800,
+            "descr": "Древнее поморское село на Северной Двине."
+        },
+        {
+            "id": 438,
+            "id_country": 1,
+            "name": "Шенкурск",
+            "lowTemp": -46,
+            "avgTemp": 1,
+            "latitude": 62.1,
+            "population": 5800,
+            "descr": "Старинный купеческий город на Ваге."
+        },
+        {
+            "id": 439,
+            "id_country": 1,
+            "name": "Холмогоры",
+            "lowTemp": -46,
+            "avgTemp": 0.9,
+            "latitude": 64.21,
+            "population": 3800,
+            "descr": "Родина М. В. Ломоносова на берегу Северной Двины."
+        },
+        {
+            "id": 440,
+            "id_country": 2,
+            "name": "Гранд-Прерия",
+            "lowTemp": -46,
+            "avgTemp": 2.2,
+            "latitude": 55.17,
+            "population": 64000,
+            "descr": "Быстрорастущий нефтяной город в Альберте."
+        },
+        {
+            "id": 441,
+            "id_country": 2,
+            "name": "Хай-Левел",
+            "lowTemp": -50,
+            "avgTemp": 0.4,
+            "latitude": 58.52,
+            "population": 3500,
+            "descr": "Самый северный крупный город Альберты."
+        },
+        {
+            "id": 442,
+            "id_country": 2,
+            "name": "Инувик",
+            "lowTemp": -56,
+            "avgTemp": -8.2,
+            "latitude": 68.36,
+            "population": 3200,
+            "descr": "Административный центр дельты Маккензи."
+        },
+        {
+            "id": 443,
+            "id_country": 2,
+            "name": "Смитерс",
+            "lowTemp": -40,
+            "avgTemp": 4,
+            "latitude": 54.78,
+            "population": 5400,
+            "descr": "Живописный город в горной долине Балкли."
+        },
+        {
+            "id": 444,
+            "id_country": 3,
+            "name": "Джуно (осн.)",
+            "lowTemp": -30,
+            "avgTemp": 4.7,
+            "latitude": 58.3,
+            "population": 32000,
+            "descr": "Недоступная по дороге столица Аляски."
+        },
+        {
+            "id": 445,
+            "id_country": 5,
+            "name": "Осло (ссылка)",
+            "lowTemp": -23,
+            "avgTemp": 6,
+            "latitude": 59.91,
+            "population": 700000,
+            "descr": "Столица Норвегии — база для арктических экспедиций."
+        },
+        {
+            "id": 446,
+            "id_country": 6,
+            "name": "Умео",
+            "lowTemp": -33,
+            "avgTemp": 3.5,
+            "latitude": 63.82,
+            "population": 130000,
+            "descr": "Культурная столица севера Швеции."
+        },
+        {
+            "id": 447,
+            "id_country": 7,
+            "name": "Оулу",
+            "lowTemp": -42,
+            "avgTemp": 2.7,
+            "latitude": 65.01,
+            "population": 210000,
+            "descr": "Крупнейший город Северной Финляндии, мировой центр технологий."
+        },
+        {
+            "id": 448,
+            "id_country": 8,
+            "name": "Акюрейри",
+            "lowTemp": -23,
+            "avgTemp": 3.4,
+            "latitude": 65.68,
+            "population": 19000,
+            "descr": "«Северная столица» Исландии."
+        },
+        {
+            "id": 449,
+            "id_country": 1,
+            "name": "Нефтеюганск-2 (Пыть-Ях)",
+            "lowTemp": -53,
+            "avgTemp": -0.9,
+            "latitude": 60.76,
+            "population": 39000,
+            "descr": "Дублирующий административный узел нефтяного района Оби."
+        },
+        {
+            "id": 500,
+            "id_country": 1,
             "name": "Мыс Желания",
             "lowTemp": -42,
             "avgTemp": -10,
