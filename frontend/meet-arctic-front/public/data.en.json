@@ -133,7 +133,7 @@
         {
             "id": 9,
             "id_country": 5,
-            "name": "Tromsø",
+            "name": "Tromso",
             "lowTemp": -20,
             "avgTemp": 2.9,
             "latitude": 69.64,
@@ -163,7 +163,7 @@
         {
             "id": 12,
             "id_country": 6,
-            "name": "Luleå",
+            "name": "Lulea",
             "lowTemp": -41,
             "avgTemp": 2,
             "latitude": 65.58,
@@ -203,7 +203,7 @@
         {
             "id": 16,
             "id_country": 8,
-            "name": "Húsavík",
+            "name": "Husavik",
             "lowTemp": -20,
             "avgTemp": 2.8,
             "latitude": 66.04,
@@ -443,7 +443,7 @@
         {
             "id": 40,
             "id_country": 5,
-            "name": "Ny-Ålesund",
+            "name": "Ny-Alesund",
             "lowTemp": -42,
             "avgTemp": -5.2,
             "latitude": 78.92,
@@ -483,7 +483,7 @@
         {
             "id": 44,
             "id_country": 6,
-            "name": "Gällivare",
+            "name": "Gallivare",
             "lowTemp": -43,
             "avgTemp": -1.2,
             "latitude": 67.13,
@@ -493,7 +493,7 @@
         {
             "id": 45,
             "id_country": 7,
-            "name": "Kittilä",
+            "name": "Kittila",
             "lowTemp": -51,
             "avgTemp": -0.8,
             "latitude": 67.66,
@@ -503,7 +503,7 @@
         {
             "id": 46,
             "id_country": 7,
-            "name": "Sodankylä",
+            "name": "Sodankyla",
             "lowTemp": -49,
             "avgTemp": -1,
             "latitude": 67.41,
@@ -963,7 +963,7 @@
         {
             "id": 92,
             "id_country": 5,
-            "name": "Bodø",
+            "name": "Bodo",
             "lowTemp": -18,
             "avgTemp": 4.5,
             "latitude": 67.28,
@@ -973,7 +973,7 @@
         {
             "id": 93,
             "id_country": 6,
-            "name": "Piteå",
+            "name": "Pitea",
             "lowTemp": -40,
             "avgTemp": 2.2,
             "latitude": 65.31,
@@ -1003,7 +1003,7 @@
         {
             "id": 96,
             "id_country": 6,
-            "name": "Arvidsjäur",
+            "name": "Arvidsjaur",
             "lowTemp": -45,
             "avgTemp": -0.5,
             "latitude": 65.59,
@@ -1033,7 +1033,7 @@
         {
             "id": 99,
             "id_country": 8,
-            "name": "Isa förður",
+            "name": "Isa fordur",
             "lowTemp": -20,
             "avgTemp": 2.5,
             "latitude": 66.07,
@@ -1043,7 +1043,7 @@
         {
             "id": 100,
             "id_country": 8,
-            "name": "Siglufjordör",
+            "name": "Siglufjordor",
             "lowTemp": -18,
             "avgTemp": 2.3,
             "latitude": 66.14,
@@ -1633,7 +1633,7 @@
         {
             "id": 161,
             "id_country": 5,
-            "name": "Vadsø",
+            "name": "Vadso",
             "lowTemp": -25,
             "avgTemp": 1.5,
             "latitude": 70.07,
@@ -1643,7 +1643,7 @@
         {
             "id": 162,
             "id_country": 5,
-            "name": "Vardø",
+            "name": "Vardo",
             "lowTemp": -20,
             "avgTemp": 1.2,
             "latitude": 70.37,
@@ -1653,7 +1653,7 @@
         {
             "id": 163,
             "id_country": 5,
-            "name": "Båtsfjord",
+            "name": "Batsfjord",
             "lowTemp": -18,
             "avgTemp": 1.8,
             "latitude": 70.63,
@@ -1663,7 +1663,7 @@
         {
             "id": 164,
             "id_country": 5,
-            "name": "Berlevåg",
+            "name": "Berlevag",
             "lowTemp": -19,
             "avgTemp": 1.6,
             "latitude": 70.86,
@@ -1673,7 +1673,7 @@
         {
             "id": 165,
             "id_country": 5,
-            "name": "Honningsvåg",
+            "name": "Honningsvag",
             "lowTemp": -15,
             "avgTemp": 2.5,
             "latitude": 70.98,
@@ -1693,7 +1693,7 @@
         {
             "id": 167,
             "id_country": 5,
-            "name": "Svolvær",
+            "name": "Svolvaer",
             "lowTemp": -12,
             "avgTemp": 5.2,
             "latitude": 68.23,
@@ -1743,7 +1743,7 @@
         {
             "id": 172,
             "id_country": 5,
-            "name": "Skjervøy",
+            "name": "Skjervoy",
             "lowTemp": -15,
             "avgTemp": 2.8,
             "latitude": 70.03,
@@ -1753,7 +1753,7 @@
         {
             "id": 173,
             "id_country": 5,
-            "name": "Sannesshöen",
+            "name": "Sannesshoen",
             "lowTemp": -10,
             "avgTemp": 5.8,
             "latitude": 66.02,
@@ -1763,7 +1763,7 @@
         {
             "id": 174,
             "id_country": 5,
-            "name": "Brønnøysund",
+            "name": "Bronnoysund",
             "lowTemp": -12,
             "avgTemp": 6,
             "latitude": 65.46,
@@ -1783,7 +1783,7 @@
         {
             "id": 176,
             "id_country": 6,
-            "name": "Älvsbyn",
+            "name": "Alvsbyn",
             "lowTemp": -42,
             "avgTemp": 1.5,
             "latitude": 65.67,
@@ -1803,7 +1803,7 @@
         {
             "id": 178,
             "id_country": 6,
-            "name": "Övertorneå",
+            "name": "Overtornea",
             "lowTemp": -44,
             "avgTemp": 0.8,
             "latitude": 66.38,
@@ -1863,7 +1863,7 @@
         {
             "id": 184,
             "id_country": 6,
-            "name": "Åre",
+            "name": "Are",
             "lowTemp": -30,
             "avgTemp": 2.5,
             "latitude": 63.4,
@@ -1873,7 +1873,7 @@
         {
             "id": 185,
             "id_country": 6,
-            "name": "Östersund",
+            "name": "Ostersund",
             "lowTemp": -35,
             "avgTemp": 3.1,
             "latitude": 63.17,
@@ -1893,7 +1893,7 @@
         {
             "id": 187,
             "id_country": 7,
-            "name": "Saariselkä",
+            "name": "Saariselka",
             "lowTemp": -45,
             "avgTemp": -1.2,
             "latitude": 68.42,
@@ -1963,7 +1963,7 @@
         {
             "id": 195,
             "id_country": 7,
-            "name": "Kemijärvi",
+            "name": "Kemijarvi",
             "lowTemp": -47,
             "avgTemp": 0.5,
             "latitude": 66.71,
@@ -1973,7 +1973,7 @@
         {
             "id": 196,
             "id_country": 8,
-            "name": "Blönduós",
+            "name": "Blonduos",
             "lowTemp": -22,
             "avgTemp": 3,
             "latitude": 65.65,
@@ -1983,7 +1983,7 @@
         {
             "id": 197,
             "id_country": 8,
-            "name": "Seyðarkreppubyggð",
+            "name": "Seydarkreppubyggd",
             "lowTemp": -20,
             "avgTemp": 3.2,
             "latitude": 65.74,
@@ -1993,7 +1993,7 @@
         {
             "id": 198,
             "id_country": 8,
-            "name": "Dalvík",
+            "name": "Dalvik",
             "lowTemp": -18,
             "avgTemp": 3.5,
             "latitude": 65.97,
@@ -2003,7 +2003,7 @@
         {
             "id": 199,
             "id_country": 8,
-            "name": "Ólafsfjarðar",
+            "name": "Olafsfjardar",
             "lowTemp": -19,
             "avgTemp": 3.1,
             "latitude": 66.07,
@@ -2013,7 +2013,7 @@
         {
             "id": 200,
             "id_country": 8,
-            "name": "Egilsstaðir",
+            "name": "Egilsstadir",
             "lowTemp": -25,
             "avgTemp": 3.8,
             "latitude": 65.26,
@@ -2043,7 +2043,7 @@
         {
             "id": 203,
             "id_country": 1,
-            "name": "Mezeñ",
+            "name": "Mezen",
             "lowTemp": -49,
             "avgTemp": -0.8,
             "latitude": 65.85,
@@ -3183,7 +3183,7 @@
         {
             "id": 413,
             "id_country": 2,
-            "name": "Gamètì",
+            "name": "Gameti",
             "lowTemp": -48,
             "avgTemp": 3.8,
             "latitude": 53.92,
@@ -3193,7 +3193,7 @@
         {
             "id": 414,
             "id_country": 2,
-            "name": "Wekweitì",
+            "name": "Wekweiti",
             "lowTemp": -45,
             "avgTemp": 0.8,
             "latitude": 56.72,
