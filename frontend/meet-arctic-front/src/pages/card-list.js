@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 //import { cities, countries as cntr } from '../mock/data.ts'
 import { Link } from "react-router";
 
@@ -15,7 +15,6 @@ export default function CardList() {
 
       const response = await fetch("./public/data.json");
       const d = await response.json();
-      console.log("load data");
 
       const cntr_response = d.countries;
       const city_response = d.cities;
@@ -34,7 +33,7 @@ export default function CardList() {
 
   const filteredCities = useMemo(()=>{
     return data.filter((d)=>{
-        const queryFilter = d.name.toLowerCase().includes(query.toLowerCase());
+        const queryFilter = d.name.toLowerCase().startsWith(query.toLowerCase());
         const countryFilter =  selectedCountryId !== 0 ? d.id_country === selectedCountryId: true;
       return queryFilter&&countryFilter;
     });
@@ -46,6 +45,21 @@ export default function CardList() {
     setQuery(e.target.value);
     setLimit(STEP); 
   };
+
+    const loaderRef = useRef(null);
+
+  useEffect(() => {
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting && limit < filteredCities.length) {
+      setLimit(prev => prev + STEP);
+    }
+  }, { threshold: 1.0 });
+
+  if (loaderRef.current) observer.observe(loaderRef.current);
+  
+  return () => observer.disconnect();
+}, [limit, filteredCities.length]);
+
 
   const cityImage = (city) => {
 
@@ -100,18 +114,18 @@ export default function CardList() {
       </Link>
       ))}
 
-      {limit < filteredCities.length && (
+      <div ref={loaderRef} style={{ height: '20px' }}>
+        {limit < filteredCities.length ? 'Загрузка...' : 'Это все данные'}
+      </div>
+
+      {/* {limit < filteredCities.length && (
         <>
+
           <button onClick={() => setLimit(prev => prev + STEP)}>
             Показать еще (осталось {filteredCities.length - limit})
           </button>
-
-          {/* Надо добавить state showAll? Но нужно ли
-          <button onClick={() => setLimit(filteredCities.length)}>
-            Показать все
-          </button>         */}
         </>        
-      )}
+      )} */}
     </>
   );
 }
