@@ -1,5 +1,3 @@
-import { Link } from "react-router";
-
 // function cityImage(city) {
 
 //   const placeholder = "./public/placeholder.png";

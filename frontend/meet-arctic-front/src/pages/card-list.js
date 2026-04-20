@@ -1,7 +1,4 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-//import { cities, countries as cntr } from '../mock/data.ts'
-//import { Link } from "react-router";
-//import cityImage from "../components/citycard-list";
 import CityCardList from "../components/citycard-list";
 
 export default function CardList({ countries, cities }) {
