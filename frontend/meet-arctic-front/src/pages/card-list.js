@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 //import cityImage from "../components/citycard-list";
 import CityCardList from "../components/citycard-list";
 
-export default function CardList({countries, cities}) {
+export default function CardList({ countries, cities }) {
   const STEP = 10;
   const [query, setQuery] = useState('');
   const [limit, setLimit] = useState(STEP);
@@ -41,31 +41,50 @@ export default function CardList({countries, cities}) {
 
   return (
     <>
-      <form>
-        <input
-          value={query}
-          onChange={handleSearch}
-        />
+      <div className="screen">
+        <div className="table-toolbar">
+          <div className="table-toolbar-title">Cities</div>
+          <form>
+            <input className="search-box"
+              value={query}
+              onChange={handleSearch}
+            />
 
-        <select
-          value={selectedCountryId}
-          onChange={(e) => setSelectedCountryId(Number(e.target.value))}
-        >
-          <option value={0}>Все страны</option>
-          {countries.map(country => (
-            <option key={country.id} value={country.id}>
-              {country.name}
-            </option>
-          ))}
-        </select>
-      </form>
+            <select className="search-box"
+              value={selectedCountryId}
+              onChange={(e) => setSelectedCountryId(Number(e.target.value))}
+            >
+              <option value={0}>Все страны</option>
+              {countries.map(country => (
+                <option key={country.id} value={country.id}>
+                  {country.name}
+                </option>
+              ))}
+            </select>
+          </form>
+        </div>
+        <div className="table-wrap">
+          <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Country</th>                  
+                  <th>Lowest Temp (°C)</th>
+                  <th>Avg Temp (°C)</th>
+                  <th>Population</th>
+                  <th>Latitude</th>
+                </tr>
+              </thead>
+              <tbody>
+               <CityCardList>{visibleItems}</CityCardList>
+              </tbody>
 
-      <CityCardList>{visibleItems}</CityCardList>
-
-      <div ref={loaderRef} style={{ height: '20px' }}>
-        {limit < filteredCities.length ? 'Загрузка...' : ''}
-      </div>
-
+          </table>
+        </div>
+          <div ref={loaderRef} style={{ height: '20px' }}>
+            {limit < filteredCities.length ? 'Загрузка...' : ''}
+          </div>        
+      </div> {/* screen */}
     </>
   );
 }
