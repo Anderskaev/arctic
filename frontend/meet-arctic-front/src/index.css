@@ -258,7 +258,7 @@ body { font-family: var(--font-sans); background: transparent; }
 .table-wrap {
   border: 0.5px solid var(--color-border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
+  overflow: auto;
 }
 
 .data-table {
