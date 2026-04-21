@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { formatPop } from "./functions";
 
 export default function Stats({cities}) {
      const stats = useMemo(() => {
@@ -22,7 +23,7 @@ export default function Stats({cities}) {
 
           <div className="stat-card">
               <div className="stat-label">Coldest</div>
-              <div className="stat-value cold">{stats.coldest.lowTemp}°C</div>      
+              <div className="stat-value cold">{stats.coldest.lowTemp}°&nbsp;C</div>      
               <div className="stat-sub">{stats.coldest.name}, {stats.coldest.country}</div>     
           </div>
 
@@ -35,7 +36,7 @@ export default function Stats({cities}) {
 
           <div className="stat-card">
               <div className="stat-label">Most populous</div>
-              <div className="stat-value">~{stats.largest.population.toLocaleString()} ppl
+              <div className="stat-value">{formatPop(stats.largest.population)} ppl
                 {/* <NumericFormat value={stats.largest.population} displayType={'text'} thousandSeparator={' '} suffix={' ppl'} /> */}
                 </div>      
               <div className="stat-sub">{stats.largest.name}, {stats.largest.country}</div>     

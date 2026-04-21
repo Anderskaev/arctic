@@ -1,9 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { formatPop } from "./functions"
 
-// Install: npm install leaflet
-// In your index.css or App.css add: @import "leaflet/dist/leaflet.css";
-
 const SAMPLE_SETTLEMENTS = [
   { name: "Murmansk", country: "Russia", latitude: 68.9585, longitude: 33.0827, population: 295374 },
   { name: "Longyearbyen", country: "Norway", latitude: 78.2232, longitude: 15.6267, population: 2400 },
@@ -22,8 +19,6 @@ const SAMPLE_SETTLEMENTS = [
 function pickRandom(arr, n) {
   return [...arr].sort(() => Math.random() - 0.5).slice(0, n);
 }
-
-
 
 export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 }) {
   const mapContainerRef = useRef(null);
@@ -183,7 +178,8 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
           ref={mapContainerRef}
           style={{
             width: "100%",
-            height: "460px",
+            aspectRatio: "16/9",
+            //height: "460px",
             borderRadius: "12px",
             overflow: "hidden",
             border: "0.5px solid #1a2a3a",
