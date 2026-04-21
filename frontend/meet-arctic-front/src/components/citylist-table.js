@@ -26,24 +26,29 @@
 //     </p>
 //   </div>
 // </Link> 
-const getTempColor = (temp) => {
-  if (temp <= -70) return 'var(--arctic-900)';
-  if (temp <= -60) return 'var(--arctic-800)';
-  if (temp <= -50) return 'var(--arctic-700)';
-  if (temp <= -40) return 'var(--arctic-600)';
-  if (temp <= -30) return 'var(--arctic-500)';
-  if (temp <= -20) return 'var(--arctic-400)';
-  //return 'var(--arctic-300)'; // Для "теплой" погоды (выше нуля)
-};
 
-export default function CityCardList({ children }) {
+import { getTempColor } from "./functions";
+
+export default function CityListTable({ children }) {
 
   const maxPopulation = Math.max(...children.map(city => city.population));
 
 
   return (
     <>
-
+        <div className="table-wrap">
+          <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Country</th>                  
+                  <th>Lowest Temp (°C)</th>
+                  <th>Avg Temp (°C)</th>
+                  <th>Population</th>
+                  <th>Latitude</th>
+                </tr>
+              </thead>
+              <tbody>
       {children.map((city) => {
         const widthPercentage = (city.population / maxPopulation) * 100;
         return (
@@ -79,6 +84,9 @@ export default function CityCardList({ children }) {
           </tr>
         )
       })}
+          </tbody>
+        </table>
+       </div> 
     </>
   );
 }

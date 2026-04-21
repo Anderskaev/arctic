@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import CityCardList from "../components/citycard-list";
+import { useMediaQuery } from "../components/functions";
+import CityListTable from "../components/citylist-table";
+import CityListCard from "../components/citylist-card";
 
 export default function CardList({ countries, cities }) {
   const STEP = 10;
@@ -36,6 +38,8 @@ export default function CardList({ countries, cities }) {
     return () => observer.disconnect();
   }, [limit, filteredCities.length]);
 
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
   return (
     <>
       <div className="screen">
@@ -60,24 +64,9 @@ export default function CardList({ countries, cities }) {
             </select>
           </form>
         </div>
-        <div className="table-wrap">
-          <table>
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Country</th>                  
-                  <th>Lowest Temp (°C)</th>
-                  <th>Avg Temp (°C)</th>
-                  <th>Population</th>
-                  <th>Latitude</th>
-                </tr>
-              </thead>
-              <tbody>
-               <CityCardList>{visibleItems}</CityCardList>
-              </tbody>
 
-          </table>
-        </div>
+              {!isMobile ? <CityListTable>{visibleItems}</CityListTable> : <CityListCard>{visibleItems}</CityListCard>}
+         
           <div ref={loaderRef} style={{ height: '20px' }}>
             {limit < filteredCities.length ? 'Загрузка...' : ''}
           </div>        
