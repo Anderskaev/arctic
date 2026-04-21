@@ -47,3 +47,50 @@ export function formatPop(n) {
   if (n >= 1000) return (n / 1000).toFixed(0) + "K";
   return n.toLocaleString();
 }
+
+export function formatLatitude (lat) {
+  let d = Math.floor(Math.abs(lat));
+  let m = Math.round((Math.abs(lat) - d) * 60);
+
+  if (m === 60) {
+    d += 1;
+    m = 0;
+  }
+
+  const dir = lat >= 0 ? 'N' : 'S';
+  return `${d}°${m}′ ${dir}`;
+};
+
+export function formatLongitude (lng) {
+  let d = Math.floor(Math.abs(lng));
+  let m = Math.round((Math.abs(lng) - d) * 60);
+
+  if (m === 60) {
+    d += 1;
+    m = 0;
+  }
+
+  const dir = lng >= 0 ? 'E' : 'W';
+  return `${d}°${m}′ ${dir}`;
+};
+
+export function cityImage(city, className="") {
+
+  const placeholder = "/public/placeholder.png";
+  const cityImg = `/public/cities/${city.id}.png`;
+
+  return (
+    <img
+      className={className}
+      src={cityImg}
+      //width="100"
+      //height="100"
+      alt={city.name}
+
+      onError={(e) => {
+        e.target.onerror = null;
+        e.target.src = placeholder;
+      }}
+    />
+  );
+};

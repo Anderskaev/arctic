@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import { formatPop } from "./functions"
+import { formatPop, useMediaQuery } from "./functions"
+import L from 'leaflet'; 
+import 'leaflet-textpath';
 
 const SAMPLE_SETTLEMENTS = [
   { name: "Murmansk", country: "Russia", latitude: 68.9585, longitude: 33.0827, population: 295374 },
@@ -20,6 +22,14 @@ function pickRandom(arr, n) {
   return [...arr].sort(() => Math.random() - 0.5).slice(0, n);
 }
 
+function getPolarCirclePoints(lat) {
+  var points = [];
+  for (var lon = -180; lon <= 180; lon += 0.5) { // шаг 0.5 для плавности
+    points.push([lat, lon]);
+  }
+  return points;
+}
+
 export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 }) {
   const mapContainerRef = useRef(null);
   const mapRef = useRef(null);
@@ -37,7 +47,7 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
   }, [settlements, count]);
 
   const renderMarkers = useCallback((items) => {
-    const L = window.L;
+    //const L = window.L;
     if (!mapRef.current || !L) return;
 
     markersRef.current.forEach((m) => m.remove());
@@ -45,9 +55,10 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
 
     items.forEach((s) => {
       const el = document.createElement("div");
+      const isSel = (selected?.id === s?.id);
       el.style.cssText = `
         width:12px;height:12px;border-radius:50%;
-        background:#378ADD;border:2px solid #85B7EB;
+        background:${isSel ? "var(--arctic-800);" : "var(--arctic-500);"}border:2px solid #85B7EB;
         cursor:pointer;transition:transform 0.15s,background 0.15s;
         box-shadow:0 0 8px rgba(55,138,221,0.5);
       `;
@@ -76,7 +87,7 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
 
       markersRef.current.push(marker);
     });
-  }, []);
+  }, [selected]);
 
   // Keep visible in a ref so initMap closure always reads latest value
   const visibleRef = useRef(visible);
@@ -111,6 +122,31 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
         subdomains: "abcd",
         maxZoom: 19,
       }).addTo(map);
+
+      var arcticeCircle = L.polyline(getPolarCirclePoints(66.5636), {
+        color: "var(--gray-200)",
+        weight: 2,
+        dashArray: '10, 10', // сделаем его пунктирным
+        interactive: true
+      }).addTo(map);
+
+      // Берем точку посередине видимой области (например, на долготе 0)
+      //var labelPoint = [66.5636, 0];
+
+      // arcticeCircle.bindTooltip("Arctic Circle", {
+      //   permanent: true,       // Подпись видна всегда
+      //   repeat: true,
+      //   direction: 'bottom',   // Направление вниз
+      //   className: 'polar-label', // Свой класс для стилей  
+      //   offset: [0, 5]         // Смещение [x, y] вниз на 5 пикселей
+      // }).openTooltip(labelPoint);
+
+      arcticeCircle.setText('Arctic Circle', {
+        repeat: false,         // Повторять вдоль всей линии
+        offset: 15,           // Смещение вниз от линии в пикселях
+        attributes: { fill: "var(--gray-400)", 'font-weight': 'bold' }
+      });
+      //arcticeCircle.bindTooltip("Северный полярный круг");
 
       // L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
       //   attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
@@ -171,6 +207,8 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
     }
   };
 
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
   return (
     <div style={{ fontFamily: "'DM Sans', sans-serif" }}>
       <div style={{ position: "relative" }}>
@@ -178,7 +216,7 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
           ref={mapContainerRef}
           style={{
             width: "100%",
-            aspectRatio: "16/9",
+            aspectRatio: "16/6",
             //height: "460px",
             borderRadius: "12px",
             overflow: "hidden",
@@ -190,14 +228,14 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
           <div
             style={{
               position: "absolute",
-              bottom: "16px",
-              left: "16px",
+              bottom: isMobile ? "6px" : "16px",
+              left: isMobile ? "6px" : "16px",
               background: "rgba(4,44,83,0.96)",
               backdropFilter: "blur(12px)",
               borderRadius: "10px",
-              padding: "14px 18px",
+              padding: isMobile ? "4px 8px" : "14px 18px",
               color: "white",
-              minWidth: "210px",
+              minWidth: isMobile ? "40%" : "210px",
               border: "0.5px solid rgba(133,183,235,0.3)",
               zIndex: 1000,
             }}
@@ -233,7 +271,7 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
             <div
               style={{
                 fontFamily: "'Playfair Display', serif",
-                fontSize: "1.25rem",
+                fontSize: isMobile ? "1rem" : "1.25rem",
                 fontWeight: 700,
                 marginBottom: "10px",
               }}
@@ -258,7 +296,7 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
                     fontSize: "11px",
                     fontFamily: "monospace",
                     color: "#B5D4F4",
-                    lineHeight: 1.5,
+                    //lineHeight: 1.5,
                   }}
                 >
                   {selected.latitude.toFixed(2)}°N
@@ -324,11 +362,10 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
                   selected?.name === s.name
                     ? "white"
                     : "var(--color-text-secondary, #666)",
-                border: `0.5px solid ${
-                  selected?.name === s.name
-                    ? "#378ADD"
-                    : "var(--color-border-tertiary, #ddd)"
-                }`,
+                border: `0.5px solid ${selected?.name === s.name
+                  ? "#378ADD"
+                  : "var(--color-border, #ddd)"
+                  }`,
                 borderRadius: "20px",
                 padding: "4px 12px",
                 fontSize: "12px",

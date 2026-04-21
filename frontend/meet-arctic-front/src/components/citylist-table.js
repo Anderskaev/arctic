@@ -1,22 +1,5 @@
-// function cityImage(city) {
 
-//   const placeholder = "./public/placeholder.png";
-//   const cityImg = `./public/cities/${city.id}.png`;
 
-//   return (
-//     <img
-//       src={cityImg}
-//       widtd="100"
-//       height="100"
-//       alt={city.name}
-
-//       onError={(e) => {
-//         e.target.onerror = null;
-//         e.target.src = placeholder;
-//       }}
-//     />
-//   );
-// };
 //  <Link to={"/card/" + city.id} key={city.id} style={{ textDecoration: 'none', color: 'inherit' }} >
 //   <div className="card" style={{ display: "flex" }}>
 //     {cityImage(city)}
@@ -28,9 +11,10 @@
 // </Link> 
 
 import { getTempColor } from "./functions";
+import { useNavigate } from 'react-router'
 
 export default function CityListTable({ children }) {
-
+  const navigate = useNavigate();
   const maxPopulation = Math.max(...children.map(city => city.population));
 
 
@@ -52,7 +36,8 @@ export default function CityListTable({ children }) {
       {children.map((city) => {
         const widthPercentage = (city.population / maxPopulation) * 100;
         return (
-          <tr key={city.id}>
+          //<NavLink  to={`/card/${city.id}`} style={{ textDecoration:"none", cursor:"pointer", display: 'contents'  }}> 
+          <tr key={city.id} onClick={() => navigate(`/card/${city.id}`)} style={{ cursor:"pointer" }}>
             <td><b>{city.name}</b></td>
             <td>{city.country}</td>
             <td><span className="temp-badge"
@@ -80,8 +65,9 @@ export default function CityListTable({ children }) {
               </div>
             </td>
             <td>{city.latitude}</td>
-
+            
           </tr>
+          //</NavLink>
         )
       })}
           </tbody>
