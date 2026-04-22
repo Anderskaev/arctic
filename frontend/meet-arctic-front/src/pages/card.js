@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 export default function Card() {
   //const SERVER = "http://127.0.0.1:5000/api/postcard"
   const SERVER = "/api/postcard"
+  
   const { id } = useParams();
   const [imageSrc, setImageSrc] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -65,7 +66,8 @@ export default function Card() {
 
     if (navigator.share && navigator.canShare({ files: [file] })) {
       await navigator.share({
-        title: `Postcard ${id}`,
+        title: `Postcard "Meet the Arctic"`,
+        url: `https://mta.anderskaev.ru`,
         files: [file],
       });
     } else {
