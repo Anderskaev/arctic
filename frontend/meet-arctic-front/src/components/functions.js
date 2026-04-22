@@ -38,7 +38,9 @@ export function getTempColor (temp) {
   if (temp <= -40) return 'var(--arctic-600)';
   if (temp <= -30) return 'var(--arctic-500)';
   if (temp <= -20) return 'var(--arctic-400)';
-  //return 'var(--arctic-300)'; // Для "теплой" погоды (выше нуля)
+  if (temp <= -10) return 'var(--arctic-200)';
+
+  return 'var(--arctic-100)'; // Для "теплой" погоды (выше нуля)
 };
 
 export function formatPop(n) {

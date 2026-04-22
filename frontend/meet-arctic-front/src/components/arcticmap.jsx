@@ -216,7 +216,7 @@ export default function ArcticMap({ settlements = SAMPLE_SETTLEMENTS, count = 9 
           ref={mapContainerRef}
           style={{
             width: "100%",
-            aspectRatio: "16/6",
+            aspectRatio: isMobile ? "4/3" :"16/6",
             //height: "460px",
             borderRadius: "12px",
             overflow: "hidden",

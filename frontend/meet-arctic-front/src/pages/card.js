@@ -1,43 +1,101 @@
-import { useParams } from 'react-router'
-import { useEffect, useState } from 'react';
-import { cityImage, formatLatitude, formatLongitude, formatPop } from '../components/functions';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { useState, useEffect, useRef } from 'react';
+import { useParams } from "react-router";
 
-export default function Card({ cities, countries }) {
-  const { id } = useParams()
-  const [data, setData] = useState([]);
+export default function Card() {
+  //const SERVER = "http://127.0.0.1:5000/api/postcard"
+  const SERVER = "/api/postcard"
+  const { id } = useParams();
+  const [imageSrc, setImageSrc] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  const currentUrlRef = useRef(null);
 
   useEffect(() => {
-    const LoadCities = async () => {
-      const citiesList = cities.filter(ct => ct.id === Number(id)).map((city) => {
-        return { ...city }
+    if (!id) return;
+    let cancelled = false;
+
+    const loadImage = async () => {
+      setLoading(true);
+      try {
+        const response = await fetch(`${SERVER}/${id}`);
+        if (!response.ok) throw new Error('Image not found');
+        const blob = await response.blob();
+        if (cancelled) return;
+        if (currentUrlRef.current) URL.revokeObjectURL(currentUrlRef.current);
+        const url = URL.createObjectURL(blob);
+        currentUrlRef.current = url;
+        setImageSrc(url);
+      } catch (err) {
+        console.error("Ошибка загрузки:", err);
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    };
+
+    loadImage();
+    return () => { cancelled = true; };
+  }, [id]);
+
+  useEffect(() => {
+    return () => {
+      if (currentUrlRef.current) URL.revokeObjectURL(currentUrlRef.current);
+    };
+  }, []);
+
+  // Скачать картинку
+  const handleDownload = () => {
+    const a = document.createElement('a');
+    a.href = imageSrc;
+    a.download = `postcard-${id}.png`;
+    a.click();
+  };
+
+  // Скопировать ссылку на страницу
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText(window.location.href);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  // Нативный share (мобильные браузеры)
+  const handleShare = async () => {
+    const blob = await fetch(imageSrc).then(r => r.blob());
+    const file = new File([blob], `postcard-${id}.png`, { type: 'image/png' });
+
+    if (navigator.share && navigator.canShare({ files: [file] })) {
+      await navigator.share({
+        title: `Postcard ${id}`,
+        files: [file],
       });
-      setData(citiesList);
+    } else {
+      // Fallback — просто копируем ссылку
+      handleCopyLink();
     }
-    LoadCities();
-  }, [id, cities]);
+  };
+
+  if (loading && !imageSrc) return <p>Loading postcard</p>;
 
   return (
     <>
-      {data.map((city) => (
-        <div key={city.id}>
-
-          <div className="postcard">
-            <div className="postcard-bg">
-              {cityImage(city,"postcard-img")}
-            </div>
-            <div className="postcard-coords">{formatLatitude(city.latitude)}, {formatLongitude(city.longitude)}</div>
-            <div className="postcard-info">
-              <div className="postcard-city">{city.name}</div>
-              <div className="postcard-country">{city.country} · <FontAwesomeIcon icon={faUser} /> {formatPop(city.population)}</div>
-            </div>
-          </div>
-
-
-
-        </div>
-      ))}
+    <div className='section'>
+      <div className='postcard'>
+        {imageSrc && (
+          <>
+            <img
+              src={imageSrc}
+              alt={`Postcard ${id}`}
+              style={{ maxWidth: '100%', borderRadius: '8px' }}
+            />
+          </>
+        )}
+      </div>
+      <div className='postcard-actions'>
+        <button className='btn' onClick={handleDownload}>⬇ Download</button>
+        <button className='btn' onClick={handleCopyLink}>{copied ? '✓ Copied!' : '🔗 Copy link'}</button>
+        <button className='btn' onClick={handleShare}>↗ Share</button>
+      </div>
+</div>      
     </>
   );
 }

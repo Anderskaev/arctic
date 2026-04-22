@@ -36,7 +36,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home cities={cities} countries={countries}/>} />
         <Route path="/cardlist" element={<CardList cities={cities} countries={countries}/>} />
-        <Route path="/card/:id" element={<Card cities={cities} countries={countries}/>} />
+        <Route path="/card/:id" element={<Card cities={cities} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

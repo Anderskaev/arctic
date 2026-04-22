@@ -1,5 +1,5 @@
 @import "leaflet/dist/leaflet.css";
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=DM+Sans:wght@300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=DM+Sans:wght@300;400;500&display=swap'); */
 
 
 :root {
@@ -215,6 +215,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   transition: opacity 0.15s, transform 0.1s;
+  margin: 2px;
 }
 
 /* ── Stat Cards ──────────────────────────────────────────────── */
@@ -494,8 +495,17 @@ p {
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    margin: 40px;
+   /* margin: 40px;*/
     max-width: 760px
+}
+
+.postcard-actions {
+    background: var(--color-bg);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    /*margin-left: 40px;*/
 }
 
 .postcard-img {
