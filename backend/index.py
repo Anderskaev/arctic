@@ -132,6 +132,10 @@ def generate_card(city_id, filepath, postcard_path):
    
    return
 
+@application.route('/api', methods=['GET'])
+def hello():
+    return "Hello world"
+
 @application.route('/api/postcard/<int:city_id>', methods=['GET'])
 def get_postcard(city_id):
       
