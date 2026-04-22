@@ -44,33 +44,6 @@ CITIES = {city['id']: city for city in data['cities']}
 COUNTRIES = {country['id']: country for country in data['countries']}
 
 
-@application.route('/debug-pil')
-def debug_pil():
-    try:
-        # Пытаемся создать пустое изображение
-        img = Image.new('RGB', (100, 100), color = (73, 109, 137))
-        
-        # Пробуем загрузить шрифт (САМОЕ УЯЗВИМОЕ МЕСТО)
-        # На хостинге ОБЯЗАТЕЛЬНО используйте абсолютный путь
-        try:
-            # Попробуйте сначала встроенный шрифт
-            font = ImageFont.load_default()
-            d = ImageDraw.Draw(img)
-            d.text((10,10), "Hello", font=font, fill=(255,255,0))
-        except Exception as font_err:
-            return jsonify({"error": "Font error", "details": str(font_err)})
-
-        return "Pillow работает внутри Flask!"
-    except Exception as e:
-        # Если всё упало, возвращаем ошибку текстом
-        return f"<pre>{traceback.format_exc()}</pre>", 500
-    
-
-basedir = os.path.abspath(os.path.dirname(__file__))
-logging.basicConfig(filename=os.path.join(basedir, 'error.log'), level=logging.DEBUG)
-
-
-
 def get_rect_center(rect):
    rect = rect
    center_x = (rect[0] + rect[2]) / 2
@@ -165,9 +138,34 @@ def generate_card(city_id, filepath, postcard_path):
    
    return
 
+@application.route('/debug-pil', methods=['GET'])
+def debug_pil():
+    try:
+        # Пытаемся создать пустое изображение
+        img = Image.new('RGB', (100, 100), color = (73, 109, 137))
+        
+        # Пробуем загрузить шрифт (САМОЕ УЯЗВИМОЕ МЕСТО)
+        # На хостинге ОБЯЗАТЕЛЬНО используйте абсолютный путь
+        try:
+            # Попробуйте сначала встроенный шрифт
+            font = ImageFont.load_default()
+            d = ImageDraw.Draw(img)
+            d.text((10,10), "Hello", font=font, fill=(255,255,0))
+        except Exception as font_err:
+            return jsonify({"error": "Font error", "details": str(font_err)})
+
+        return "Pillow работает внутри Flask!"
+    except Exception as e:
+        # Если всё упало, возвращаем ошибку текстом
+        return f"<pre>{traceback.format_exc()}</pre>", 500
+    
+
+basedir = os.path.abspath(os.path.dirname(__file__))
+logging.basicConfig(filename=os.path.join(basedir, 'error.log'), level=logging.DEBUG)
+
 @application.route('/api', methods=['GET'])
 def hello():
-    return "Hello world"
+    return "Hello world1"
 
 @application.route('/api/postcard/<int:city_id>', methods=['GET'])
 def get_postcard(city_id):
