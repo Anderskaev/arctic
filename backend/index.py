@@ -18,21 +18,23 @@ application = Flask(__name__)
 # CORS(application)
 
 # PUBLIC_PATH = "../frontend/meet-arctic-front/public"
-PUBLIC_PATH = "/public"
+basedir = os.path.abspath(os.path.dirname(__file__))
+PUBLIC_PATH = os.path.join(basedir, "public")
 
-CITY_PHOTOS_DIR = f"{PUBLIC_PATH}/cities" 
-CITY_CARDS_DIR = f"./postcards" 
-POSTCARD_BLANK = f"{PUBLIC_PATH}/blank.png"
 
-DATA_FILE = f"{PUBLIC_PATH}/data.json"
+CITY_PHOTOS_DIR = os.path.join(PUBLIC_PATH, "cities")
+CITY_CARDS_DIR = os.path.join(basedir, "postcards") 
+POSTCARD_BLANK = os.path.join(PUBLIC_PATH, "blank.png")
+DATA_FILE = os.path.join(PUBLIC_PATH, "data.json")
+
 BLANK_CITY = { "id":1, "id_country": 9, "name": "Arctic City", "lowTemp": -71, "avgTemp": -20.0, "longitude": 0.0, "latitude": 90.00, "population": 4000000, "descr": "The Arctic is the northernmost region of Earth, primarily consisting of the Arctic Ocean and parts of Russia, the United States (Alaska), Canada, Norway, Denmark (Greenland), Sweden, Finland, and Iceland." }
 BLANK_COUNTRY = {"id":9, "name":"Arctic"}
 BLANK_DATA = {"countries": [BLANK_COUNTRY], "cities":[BLANK_CITY]}
 
-FONT_PATH = f"{PUBLIC_PATH}/fonts"
-FONT_HEADER = f'{FONT_PATH}/exotc.ttf'
-FONT_STAT = f'{FONT_PATH}/bodoni.ttf'
-FONT_COORDS = f'{FONT_PATH}/consola.ttf'
+FONT_PATH = os.path.join(PUBLIC_PATH, "fonts") 
+FONT_HEADER = os.path.join(FONT_PATH, 'exotc.ttf')
+FONT_STAT = os.path.join(FONT_PATH, 'bodoni.ttf')
+FONT_COORDS = os.path.join(FONT_PATH, 'consola.ttf')
 
 if os.path.exists(DATA_FILE):
    with open(DATA_FILE, 'r', encoding='utf-8') as f:
