@@ -147,7 +147,7 @@ def get_postcard(city_id):
    return send_file(postcard_path, mimetype='image/png')
 
 if __name__ == "__main__":
-   application.run(host='0.0.0.0', debug=False)  # добавить debug=True
+   application.run(host='0.0.0.0')  # добавить debug=True
    #application.run(host='0.0.0.0')
 
 
