@@ -13,7 +13,7 @@ from flask_cors import CORS
 application = Flask(__name__)
 CORS(application)
 
-PUBLIC_PATH = "../frontend/meet-arctic-front/public"
+PUBLIC_PATH = "/public"
 
 CITY_PHOTOS_DIR = f"{PUBLIC_PATH}/cities" 
 CITY_CARDS_DIR = f"./postcards" 
