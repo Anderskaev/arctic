@@ -4,18 +4,13 @@ from flask import Flask, send_file
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 import logging
-# from flask_cors import CORS
+from flask_cors import CORS
 
 import traceback
 from flask import jsonify
 
-
-# CITY_PHOTOS_DIR = "./public/cities" 
-# CITY_CARDS_DIR = "./public/postcards" 
-
-
 application = Flask(__name__)
-# CORS(application)
+CORS(application)
 
 # PUBLIC_PATH = "../frontend/meet-arctic-front/public"
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -119,21 +114,21 @@ def generate_card(city_id, filepath, postcard_path):
 
    draw = ImageDraw.Draw(base)
    
-   font = ImageFont.load_default() #truetype(FONT_HEADER, 56)       
+   font = ImageFont.truetype(FONT_HEADER, 56)       
    draw.text(get_rect_center([950, 100, 1480, 200] ), f"{city_data['name'].upper()}", font=font, fill="#042C53", anchor="mm")
-   ##font = ImageFont.truetype(FONT_HEADER, 40)  
+   font = ImageFont.truetype(FONT_HEADER, 40)  
    country = COUNTRIES.get(city_data['id_country'],BLANK_COUNTRY)
    draw.text(get_rect_center([950, 180, 1480, 280] ), f"{country['name'].upper()}", font=font, fill="#042C53", anchor="mm")
 
-   ##font = ImageFont.truetype(FONT_STAT, 30)       
+   font = ImageFont.truetype(FONT_STAT, 30)       
    draw.text((1270, 317), f"{city_data['lowTemp']} C", font=font, fill="#0C447C")
    draw.text((1280, 363), f"{city_data['avgTemp']} C", font=font, fill="#0C447C")   
    draw.text((1320, 417), f"{format_pop(city_data['population'])}", font=font, fill="#0C447C")   
 
-   ##font = ImageFont.truetype(FONT_COORDS, 30)       
+   font = ImageFont.truetype(FONT_COORDS, 30)       
    draw.text((215, 893), f"{format_latitude(city_data['latitude'])}, {format_longitude(city_data['longitude'])} ", font=font, fill="white")
    
-   ##font = ImageFont.truetype(FONT_COORDS, 20)  
+   font = ImageFont.truetype(FONT_COORDS, 20)  
    draw_text_constrained(draw, city_data['descr'], font, [980, 510, 1480, 820], fill="#042C53")
 
    base.save(postcard_path) 
