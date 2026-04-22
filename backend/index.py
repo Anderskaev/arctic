@@ -3,16 +3,18 @@ import json
 from flask import Flask, send_file
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
-from flask_cors import CORS
+import logging
+# from flask_cors import CORS
 
-
+logging.basicConfig(filename='error.log', level=logging.DEBUG)
 # CITY_PHOTOS_DIR = "./public/cities" 
 # CITY_CARDS_DIR = "./public/postcards" 
 
 
 application = Flask(__name__)
-CORS(application)
+# CORS(application)
 
+# PUBLIC_PATH = "../frontend/meet-arctic-front/public"
 PUBLIC_PATH = "/public"
 
 CITY_PHOTOS_DIR = f"{PUBLIC_PATH}/cities" 
