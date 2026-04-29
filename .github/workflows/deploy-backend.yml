@@ -28,3 +28,4 @@ jobs:
           server-dir: /mta.anderskaev.ru/
           exclude: |
             README.md
+            passenger_wsgi.py
