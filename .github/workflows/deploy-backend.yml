@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: restart
-        run: touch .restart-app
+        run: touch ./backend/.restart-app
       
       - name: Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
