@@ -47,12 +47,11 @@ export default function Home({ cities, countries }) {
 
 
             <div className='section'>
-              <h2>Arctic City, The World</h2>
               <div className='postcard'>
                 {(
                   <>
                     <img
-                      src="/example.png"
+                      src="/public/example.png"
                       alt={`Postcard Arctic City, The World`}
                       style={{ maxWidth: '100%', borderRadius: '8px' }}
                     />
