@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams } from "react-router";
 
-export default function Card() {
+export default function Card({cities}) {
   //const SERVER = "http://127.0.0.1:5000/api/postcard"
   const SERVER = "/api/postcard"
   
@@ -9,13 +9,18 @@ export default function Card() {
   const [imageSrc, setImageSrc] = useState(null);
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [city, setCity] = useState({})
 
   const currentUrlRef = useRef(null);
 
+
   useEffect(() => {
     if (!id) return;
-    let cancelled = false;
 
+    let cancelled = false;
+    
+    setCity(cities.filter(f => f.id === Number(id))[0]);
+    
     const loadImage = async () => {
       setLoading(true);
       try {
@@ -36,7 +41,7 @@ export default function Card() {
 
     loadImage();
     return () => { cancelled = true; };
-  }, [id]);
+  }, [id, cities]);
 
   useEffect(() => {
     return () => {
@@ -76,17 +81,19 @@ export default function Card() {
     }
   };
 
-  if (loading && !imageSrc) return <p>Loading postcard</p>;
+  if (loading && !imageSrc ) return <p>Loading postcard</p>;
+  if (!city) return <p>Loading city</p>
 
   return (
     <>
     <div className='section'>
+    <h2>{city.name}, {city.country}</h2>
       <div className='postcard'>
         {imageSrc && (
           <>
             <img
               src={imageSrc}
-              alt={`Postcard ${id}`}
+              alt={`Postcard ${city.name}, ${city.country}`}
               style={{ maxWidth: '100%', borderRadius: '8px' }}
             />
           </>

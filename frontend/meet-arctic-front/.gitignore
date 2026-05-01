@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+/cities
+/*.png
 
 # production
 /build
