@@ -60,7 +60,7 @@ export default function Home({ cities, countries }) {
         <div className="section">
           <div className="section-eyebrow">Contacts</div>
           <h2>What if I want to see my city</h2>
-          <p>I'm working on this project by myself. If you notice any mistakes, have suggestions, or want to provide a higher-quality photo or a different image, feel free to contact me via email (coming soon).</p>
+          <p>I'm working on this project by myself. If you notice any mistakes, have suggestions, or want to provide a higher-quality photo or a different image, feel free to contact me via email <a href="mailto:admin@mta.anderskaev.ru">admin@mta.anderskaev.ru</a>.</p>
 
         </div>
 
