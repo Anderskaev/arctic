@@ -45,11 +45,23 @@ export default function Home({ cities, countries }) {
           <h2>What a postcard looks like</h2>
           <p>Cards are still being designed — here's a glimpse of what's coming.</p>
 
-        </div>
 
-        <div className="quote-section">
-          <blockquote>"The Arctic is not a place at the edge of the world. For those who live there, it is the centre of it."</blockquote>
-          <ArcticMap settlements={ cities } count={10} />
+            <div className='section'>
+              <h2>Arctic City, The World</h2>
+              <div className='postcard'>
+                {(
+                  <>
+                    <img
+                      src="/example.png"
+                      alt={`Postcard Arctic City, The World`}
+                      style={{ maxWidth: '100%', borderRadius: '8px' }}
+                    />
+                  </>
+                )}
+              </div>
+
+
+          </div>
         </div>
 
         <div className="section">
@@ -57,7 +69,13 @@ export default function Home({ cities, countries }) {
           <h2>What a postcard looks like</h2>
           <p>Cards are still being designed — here's a glimpse of what's coming.</p>
 
-        </div>       
+        </div>
+
+        <div className="quote-section">
+          <blockquote>"The Arctic is not a place at the edge of the world. For those who live there, it is the centre of it."</blockquote>
+          <ArcticMap settlements={cities} count={10} />
+        </div>
+
 
         {/* <div className="text-block">
           <h1>Meet the Arctic: A Journey Through Postcards </h1>
