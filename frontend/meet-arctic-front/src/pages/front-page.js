@@ -52,6 +52,13 @@ export default function Home({ cities, countries }) {
           <ArcticMap settlements={ cities } count={10} />
         </div>
 
+        <div className="section">
+          <div className="section-eyebrow">Contacts</div>
+          <h2>What a postcard looks like</h2>
+          <p>Cards are still being designed — here's a glimpse of what's coming.</p>
+
+        </div>       
+
         {/* <div className="text-block">
           <h1>Meet the Arctic: A Journey Through Postcards </h1>
           <p><b>Meet the Arctic</b> is an initiative dedicated to bridging the gap between the remote North and the rest of the world. While the Arctic is often seen as a vast, empty wilderness of ice, it is actually home to vibrant communities, resilient cultures, and unique urban landscapes.</p>

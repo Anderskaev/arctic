@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams } from "react-router";
 
+const blank_city = { "id":1, "id_country": 9, "name": "Arctic City", "country": "The World", "lowTemp": -71, "avgTemp": -20.0, "longitude": 0.0, "latitude": 90.00, "population": 4000000, "descr": "The Arctic is the northernmost region of Earth, primarily consisting of the Arctic Ocean and parts of Russia, the United States (Alaska), Canada, Norway, Denmark (Greenland), Sweden, Finland, and Iceland." };
+
 export default function Card({cities}) {
   //const SERVER = "http://127.0.0.1:5000/api/postcard"
   const SERVER = "/api/postcard"
@@ -9,7 +11,7 @@ export default function Card({cities}) {
   const [imageSrc, setImageSrc] = useState(null);
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
-  const [city, setCity] = useState({})
+  const [city, setCity] = useState(blank_city)
 
   const currentUrlRef = useRef(null);
 
@@ -17,9 +19,11 @@ export default function Card({cities}) {
   useEffect(() => {
     if (!id) return;
 
-    let cancelled = false;
+    let cancelled = false;   
     
-    setCity(cities.filter(f => f.id === Number(id))[0]);
+    let c = cities.filter(f => f.id === Number(id))[0];
+    if(!c) c = blank_city;
+    setCity(c);
     
     const loadImage = async () => {
       setLoading(true);
