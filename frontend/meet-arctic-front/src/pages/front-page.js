@@ -25,7 +25,7 @@ export default function Home({ cities, countries }) {
             <div className="how-card city-thumb">
               <div className="how-num">01</div>
               <h3>Browse settlements</h3>
-              <p>344 Arctic locations across 8 countries, from Murmansk to remote Inuit villages in Canada.</p>
+              <p>{cities.length} Arctic locations across 8 countries, from Murmansk to remote Inuit villages in Canada.</p>
             </div>
             <div className="how-card city-thumb">
               <div className="how-num">02</div>
@@ -43,30 +43,24 @@ export default function Home({ cities, countries }) {
         <div className="section">
           <div className="section-eyebrow">Preview</div>
           <h2>What a postcard looks like</h2>
-          <p>Cards are still being designed — here's a glimpse of what's coming.</p>
-
-
-            <div className='section'>
-              <div className='postcard'>
-                {(
-                  <>
-                    <img
-                      src="/public/example.png"
-                      alt={`Postcard Arctic City, The World`}
-                      style={{ maxWidth: '100%', borderRadius: '8px' }}
-                    />
-                  </>
-                )}
-              </div>
-
-
+          <p>Every city has it's own image and description.</p>
+          <div className='postcard'>
+            {(
+              <>
+                <img
+                  src="/public/example.png"
+                  alt={`Postcard Arctic City, The World`}
+                  style={{ maxWidth: '100%', borderRadius: '8px' }}
+                />
+              </>
+            )}
           </div>
         </div>
 
         <div className="section">
           <div className="section-eyebrow">Contacts</div>
-          <h2>What a postcard looks like</h2>
-          <p>Cards are still being designed — here's a glimpse of what's coming.</p>
+          <h2>What if I want to see my city</h2>
+          <p>I'm working on this project by myself. If you notice any mistakes, have suggestions, or want to provide a higher-quality photo or a different image, feel free to contact me via email (coming soon).</p>
 
         </div>
 
