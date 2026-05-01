@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams } from "react-router";
 
-const blank_city = { "id":1, "id_country": 9, "name": "Arctic City", "country": "The World", "lowTemp": -71, "avgTemp": -20.0, "longitude": 0.0, "latitude": 90.00, "population": 4000000, "descr": "The Arctic is the northernmost region of Earth, primarily consisting of the Arctic Ocean and parts of Russia, the United States (Alaska), Canada, Norway, Denmark (Greenland), Sweden, Finland, and Iceland." };
+const blank_city = { "id":1, "id_country": 9, "name": "Arctic City", "country": "The World", "lowTemp": -71, "avgTemp": -9, "longitude": 0.0, "latitude": 90.00, "population": 4000000, "descr": "The Arctic is the northernmost region of Earth, primarily consisting of the Arctic Ocean and parts of Russia, the United States (Alaska), Canada, Norway, Denmark (Greenland), Sweden, Finland, and Iceland." };
 
 export default function Card({cities}) {
   //const SERVER = "http://127.0.0.1:5000/api/postcard"
