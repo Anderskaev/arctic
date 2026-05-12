@@ -20,4 +20,4 @@ It's little portal with themed postcards. They are absolutely free for use under
 - Python/Flask
 
 **Database**
-- MySQL
+- Json
